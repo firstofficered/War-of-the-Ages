@@ -1,0 +1,5 @@
+wpnname = "Capital-Ship Torpedoes"
+tooltip = "Capital-Ship Torpedoes"
+verbosetooltip = "AUTOTOOLTIP-passive_acs.odf"
+classlabel = "UtilityWeapon"
+shotdelay = 0

@@ -1,0 +1,15 @@
+classlabel = "u_ball_obj"
+lifetimer = 0.5
+avoidme = 0
+avoidanceclass = 0
+animation = 3
+ignoreinterface = 1
+maxspecialenergy = 500
+specialenergyrate = 0
+weapon1 = "Active_Scan"
+weaponhardpoints1 = "root"
+mapicon = "mapicon_empty"
+invincible = 1
+invalidastarget = 1
+clearsfog = 0
+perceivedneutral = 1

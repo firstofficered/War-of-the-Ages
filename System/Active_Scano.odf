@@ -1,0 +1,6 @@
+classlabel = "CloakDetector"
+specialenergycost = 500
+specialvalue = 12
+registertargethit = 0
+
+shotInfo = "RadarPingIMP"
