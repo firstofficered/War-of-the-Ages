@@ -1,0 +1,29 @@
+ordname = "TCFO_MMG"
+
+wpnname = "Medium Machine Gun"
+tooltip = "Medium Machine Gun"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = .10
+shotdelay1 = .10
+shotdelay2 = .10
+shotdelay3 = .10
+shotdelay4 = 1.0
+
+range = 369
+
+firesound = "TCF_MMG-Fire.wav"
+
+hitchance = 0.75
+	"DEagle.odf" 0.01
+
+classlabel = "cannonimp"
+
+hitchance = 0.8
+	"DEagle.odf" 0.01
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

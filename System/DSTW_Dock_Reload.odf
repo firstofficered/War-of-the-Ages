@@ -1,0 +1,5 @@
+#include "rom_energyrechargeA.odf"
+
+validtargets = 0
+	"DSTF_Defender-1.odf" 1
+range = 20

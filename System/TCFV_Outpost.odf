@@ -1,0 +1,27 @@
+#include "TCF_Outpost.odf"
+
+buildtime = 122
+crewcost = 1000
+maxcrewgain = 5000
+latinumcost = 2000
+worthxp = 285
+
+recyclelatinum = 300
+recycletime = 83
+
+maxhealth = 7685
+curhealth = 7685
+healthrate = 3.15
+
+maxshields = 4800
+curshields = 4800
+shieldrate = 2.68
+
+builditem0 = "TCFV_Richardson"
+builditem1 = "TCF_Frederick"
+builditem2 = "TCFV_York"
+builditem3 = "TCFV_Mars"
+
+weapon1 = "TCFW_MG-Outpost"
+
+//weapon2 = "TCF_Point_Defense_Guns"

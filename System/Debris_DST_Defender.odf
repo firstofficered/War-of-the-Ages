@@ -1,0 +1,18 @@
+classlabel = "scrap"
+maxhealth = 5000
+unitname = "Hulk"
+rotationspeed = 0.8
+distancebelowgrid = 0
+avoidme = 0
+avoidanceclass = 0
+//mapicon = "mapicon_dmoon"
+resource = "Debris_Resources"
+infinite = 0
+has_resource = 1
+footprintbuffer = 0.0f
+lightcolor = 0.7	0.7	0.7
+lightfalloffstart = 300.0
+lightfalloffrange = 600.0
+
+basename = "DST_Defender"
+autoexpiretime = 1200

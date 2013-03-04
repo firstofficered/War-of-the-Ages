@@ -1,0 +1,135 @@
+basename = "DST_Mustang"
+
+unitname = "Mustang Class"
+tooltip = "Mustang Class"
+verbosetooltip = "AUTOTOOLTIP-fed_venture.odf"
+
+hotkeylabel = "GAME-HOTKEY-S"
+
+race = "Destroyers"
+
+buildtime = 12
+crewcost = 10
+biomattercost = 15
+
+worthxp = 16
+
+recyclebiomatter = 9
+recycletime = 7
+
+maxhealth = 50
+curhealth = 50
+healthrate = 0.079
+
+maxshields = 50
+curshields = 50
+shieldrate = 1.4
+
+shieldgeneratorhitpoints = 13
+engineshitpoints = 13
+weaponshitpoints = 13
+lifesupporthitpoints = 13
+sensorshitpoints = 13
+
+maxspecialenergy = 0
+specialenergyrate = 0
+
+attackpower = 0.200
+intrinsicvalue = 0.200
+
+physicsfile = "Destroyer_Scout_Physics.odf"
+trekphysicsfile = "Destroyer_Scout_Physics.odf"
+
+weapon1 = "DSTW_Gun-Mustang"
+weaponhardpoints1 = "hp01"
+weapon1iconpos = 80	50
+
+weapon2 = "Passive_Radar"
+weaponhardpoints2 = "root"
+weapon2iconpos = 85	50
+
+weapon3 = "Radar-Passive"
+weaponhardpoints3 = "root"
+
+weapon4 = "MustangModeSwitch"
+weaponhardpoints4 = "root"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+possiblecraftnames = "USS Aldrin" "USS Andes" "USS Asher" "USS Avon" "USS Bartlett" "USS Bullseye" "USS Celebi" "USS Centauri" "USS Croft" "USS Cumberland" "USS Dart" "USS De Smet" "USS Explorer" "USS Fadland" "USS Flycatcher" "USS Frege" "USS Ghost" "USS Goldfield" "USS Gydan" "USS Haddock" "USS Halibut" "USS Hampton" "USS Harpoon" "USS Hobbes" "USS Impulse" "USS Ireland" "USS Iris" "USS Jallao" "USS Lamprey" "USS Laurent" "USS Lee Spence" "USS Makalu" "USS Neon" "USS Neutron" "USS Pleiade" "USS Rasmussen" "USS Rayleigh" "USS Runner" "USS Skygazer" "USS Snapper" "USS Sophia" "USS Soyuz" "USS Sparrow" "USS Spear" "USS Spectre" "USS Sverdrup" "USS Ural" "USS Verutum" "USS Wolverine" "USS Yangtze"
+
+shipclass = "scout"
+shiptype = "S"
+
+enginesrepairtime = 2.0
+lifesupportrepairtime = 0.5
+weaponsrepairtime = 2.0
+shieldgeneratorrepairtime = 2.0
+sensorsrepairtime = 2.0
+
+avoidanceclass = 1
+weldingradius = 0.25
+fireball = "x_small_explosion"
+scout = 1
+preferredselect = 0
+
+eventselect = "DestroyerBasicSelect"
+eventacknowledge = "DestroyerBasicAcknowledge"
+eventattack = "DestroyerBasicAttack"
+eventstop = "DestroyerBasicStop"
+eventmove = "DestroyerBasicMove"
+eventrepair = "DestroyerBasicRepair"
+
+classlabel = "craft"
+ainame = "CraftProcess"
+
+officercost = 0
+
+shielddelay = 2
+
+damagedscan = 50.0
+
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+
+engineshitpercent = 7.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 71.0f
+
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+combat = 1
+can_sandd = 1
+
+buildablebyownerraceonly = 1
+
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 1500
+
+shieldhit = "shield_fed_hitS"
+shieldhitcritical = "shield_fed_hitcritS"
+shielddown = "shield_fed_down"

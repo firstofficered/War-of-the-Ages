@@ -1,0 +1,6 @@
+#include "TCF_Richardson.odf"
+
+builditem0 = "TCFA_Starbase"
+builditem1 = "TCF_Mining_Station"
+//builditem2 = "TCF_ResearchCenter_At"
+//builditem3 = "TCF_TurretL-GunS"

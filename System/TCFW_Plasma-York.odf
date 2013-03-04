@@ -1,0 +1,23 @@
+#include "TCF_Weapon-Plasma_Cannon.odf"
+
+wpnname = "Plasma Cannon"
+tooltip = "Plasma Cannon"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = 0.4
+shotdelay1 = 0.4
+shotdelay2 = 0.4
+shotdelay3 = 1.0
+
+range = 600
+
+hitchance = 0.90
+	"DEagle.odf" 0.001
+
+classlabel = "cannonimp"
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

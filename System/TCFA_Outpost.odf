@@ -1,0 +1,165 @@
+basename = "kli_kahless_station"
+
+unitname = "Outpost"
+tooltip = "Outpost"
+verbosetooltip = "AUTOTOOLTIP-kli_kahless_stationY.odf"
+
+//avatarboxicon = "b_avatar_kli_martokS"
+//avatarboxtooltip = "AUTOTOOLTIP-avatar_kli_martok.odf_WithName"
+
+hotkeylabel = "GAME-HOTKEY-F1"
+
+originalclass = "kli_kahless_stationY"
+
+race = "TCF"
+
+buildtime = 150
+crewcost = 1000
+maxcrewgain = 5000
+latinumcost = 2000
+worthxp = 285
+
+recyclelatinum = 300
+recycletime = 83
+
+maxhealth = 8427
+curhealth = 8427
+healthrate = 3.8
+
+maxshields = 2800
+curshields = 2800
+shieldrate = 2.6
+
+shieldgeneratorhitpoints = 0
+engineshitpoints = 0
+weaponshitpoints = 736
+lifesupporthitpoints = 736
+sensorshitpoints = 736
+
+fireball = "x_building2_explosion"
+
+eventselect = "KlingonKahlessStationSelect"
+
+builder_ship = 1
+animation = 2
+footprintbuffer = 120.0f
+//southbuffer = 170.0
+
+//overlaysod = "kli_s_shuttlesL"
+attackpower = 1.000
+intrinsicvalue = 1.000
+buildhardpoint = "hp99"
+
+builditem0 = "TCFA_Richardson"
+builditem1 = "TCF_Frederick"
+builditem2 = "TCFA_York"
+builditem3 = "TCFA_Mars"
+//builditem4 = "TCFA_Wolf"
+//builditem5 = "TCFA_Washington"
+//builditem1 = "kli_topmey"
+//builditem2 = "kli_noqduj"
+//builditem3 = "kli_qawdujS"
+//builditem4 = "all_supply_routes1_kli"
+//builditem4availability = 32
+//builditem5 = "all_supply_routes2_kli"
+//builditem5availability = 40
+//builditem6 = "all_supply_routes3_kli"
+//builditem6availability = 40
+//builditem7 = "all_supply_routes4_kli"
+//builditem7availability = 40
+//builditem8 = "all_supply_routes5_kli"
+//builditem8availability = 8
+//builditem9 = "all_halt"
+
+//weapon1 = "TCF_Weapon_Laser-Outpost"
+//weaponhardpoints1 = "hp45" "hp46" "hp47"
+//weapon1iconpos = 70	50
+
+//weapon2 = "TCF_Point_Defense_Guns"
+//weaponhardpoints2 = "root"
+
+//weapon3 = "kli_kahless_upgradeW"
+//weaponhardpoints3 = "root"
+
+//weapon4 = "all_ai_supply"
+//weaponhardpoints4 = "root"
+
+classlabel = "starbase"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+weaponstargethardpoints = "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28"
+shieldgeneratortargethardpoints = "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53"
+sensorstargethardpoints = "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36" "hp37" "hp38" "hp39" "hp40" "hp41" "hp42"
+hulltargethardpoints = "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53"
+criticaltargethardpoints = "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53"
+
+is_starbase = 1
+ainame = "StarbaseProcess"
+
+officercost = 0
+
+shielddelay = 2
+
+damagedscan = 50.0f
+avoidanceclass = 9
+weldingradius = 1.0
+
+repairyellow = 2.0f
+repairred = 4.0f
+
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.0625
+weaponsrepairtime = 0.25
+shieldgeneratorrepairtime = 0.00
+sensorsrepairtime = 0.25
+
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 0.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+
+engineshitpercent = 0.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 0.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 78.0f
+
+facility = 1
+has_crew = 1
+transporter = 0
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+combat = 1
+can_sandd = 0
+
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 1250
+
+//shieldhit = "shield_kli_hitXL"
+//shieldhitcritical = "shield_kli_hitcritXL"
+//shielddown = "shield_kli_down"
+
+possiblecraftnames = 
+	"Ejyowaw" "Cha'puj" "Ko'Va" "QeD botlh" "NuH botlh" "Qab'a'Qach"
+	"Deh'Qua B'lah" "Deh'Qua Nuq" "Deh'Qua Vak" "Deh'Qua Q'tu"
+	"Deh'Qua Kaq" "Deh'Qua N'quth" "Deh'Qua LuQ" "Deh'Qua Boq"
+	"Kang Center" "K'Vril Center" "D'uok Center" "Var'Qap Center"
+	"NuQ'uq Center" "Baht Center" "Qu'Toh Center" "Q'ntar Center"
+	"Duj'a'Qach" "Duj Qach"

@@ -1,0 +1,16 @@
+ordname = "DSTO_Galar"
+wpnname = "Galar-Type Tractor Beam"
+tooltip = "Galar-Type Tractor Beam"
+verbosetooltip = "AUTOTOOLTIP-bor_holdingbeam_HHH.odf"
+buttonslot = 13
+shotdelay = 1
+firesound = "borg_auto_assimilator.wav"
+ignorevalidastarget = 1
+showrange = 1
+classlabel = "toggleweapon"
+special = 1
+needtarget = 1
+switchtoattack = 0
+speakonattack = 0
+attackspeech = 0
+range = 700

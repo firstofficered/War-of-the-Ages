@@ -1,0 +1,16 @@
+ordname = "TCFO_Laser-MK7"
+
+wpnname = "Laser Cannon"
+tooltip = "Laser Cannon"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+firesound = "TCFLaserCannon.wav"
+
+classlabel = "cannonimp"
+
+HardpointShift = 1
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

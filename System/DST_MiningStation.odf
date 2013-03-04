@@ -1,0 +1,123 @@
+unitname = "Mining Station"
+tooltip =  "Mining Station"
+verbosetooltip = "DST_Station-Mining_Station"
+
+hotkeylabel = "GAME-HOTKEY-F2"
+
+race = "Destroyers"
+
+buildtime = 62
+crewcost = 200
+maximumcrew = 125
+biomattercost = 450
+
+worthxp = 84
+
+recyclebiomatter = 32
+recycletime = 28
+
+maxhealth = 413
+curhealth = 413
+healthrate = 0.716
+
+maxshields = 1382
+curshields = 1382
+shieldrate = 2.401
+
+shieldgeneratorhitpoints = 153
+engineshitpoints = 0
+weaponshitpoints = 0
+lifesupporthitpoints = 153
+sensorshitpoints = 153
+
+attackpower = 0.000
+intrinsicvalue = 0.000
+
+eventselect = "DestroyerMiningSelect"
+
+animation = 2
+footprintbuffer = 50.0f
+
+resourcescanhandle = "biomatter"
+
+//metalConversionRate = 1.0
+//metalTransferRate = 125.0
+
+freightername = "DST_Romana"
+
+biomattertransferrate = 100.0
+
+classlabel = "mining"
+
+possiblecraftnames = "Station Alpha" "Station Beta" "Station Gamma" "Station Delta" "Station Epsilon" "Station Zeta" "Station Eta" "Station Theta" "Station Iota" "Station Kappa" "Station Lambda" "Station Mu" "Station Nu" "Station Xi" "Station Omicron" "Station Pi" "Station Rho" "Station Sigma" "Station Tau" "Station Upsilon" "Station Phi" "Station Chi" "Station Psi" "Station Omega" "Station Diagamma" "Station San" "Station Qoppa" "Station Sampi" "Station Stigma" "Station Heta" "Station Sho"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04"
+shieldgeneratortargethardpoints = "hp05" "hp06" "hp07" "hp08" "hp21" "hp22" "hp23" "hp24"
+sensorstargethardpoints = "hp17" "hp18" "hp19" "hp20"
+hulltargethardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp21" "hp22" "hp23" "hp24"
+criticaltargethardpoints = "hp17" "hp18" "hp19" "hp20"
+
+is_starbase = 1
+ainame = "StarbaseProcess"
+officercost = 0
+
+shielddelay = 2
+
+damagedscan = 50.0f
+avoidanceclass = 9
+weldingradius = 1.0
+fireball = "x_building_explosion"
+
+repairyellow = 2.0f
+repairred = 4.0f
+
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.0625
+weaponsrepairtime = 0.25
+shieldgeneratorrepairtime = 0.25
+sensorsrepairtime = 0.25
+
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+
+engineshitpercent = 0.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 78.0f
+
+facility = 1
+has_crew = 1
+transporter = 1
+has_hitpoints = 1
+
+checkvalidresourceinterval = 10.0f
+
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+combat = 1
+can_sandd = 0
+
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+
+maxextraweapons = 10
+rangescan = 600
+
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "shield_fed_down"

@@ -1,0 +1,36 @@
+damagebase = 2
+
+damagevariance = 0
+
+damagethreshold = 0
+
+shotgeometry = "romW_projectile.SOD"
+
+//The type of damage applied to a ship
+//0 = Shields, then Hull
+//1 = Hull only
+//2 = Shields only
+damageMode = 1
+
+ignoreshield = 1
+
+lifespan = 6.0
+
+omegaturn = 0
+shotaccel = 70.0
+seektime = 0
+
+//explosionhit = "fedW_quantumH"
+
+//explosionshieldhit = "fedW_quantumHS"
+
+//hitsound = "DAFGIMP.wav"
+
+shotspeed = 1000.0
+
+classlabel = "UniTorpedo"
+
+spriteduration = 1
+
+shotcolor = 227
+radius = 0

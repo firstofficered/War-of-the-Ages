@@ -1,0 +1,17 @@
+#include "DSTW_Laser-CannonR.odf"
+
+shotcycleresettime = 2.5
+shotdelay0 = 0.1
+shotdelay1 = 0.1
+shotdelay2 = 0.1
+shotdelay3 = 0.1
+shotdelay4 = 0.1
+shotdelay5 = 0.1
+shotdelay6 = 0.1
+shotdelay7 = 0.1
+shotdelay8 = 0.1
+shotdelay9 = 0.1
+shotdelay10 = 0.1
+shotdelay11 = 2.0
+
+range = 650.0

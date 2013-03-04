@@ -1,0 +1,18 @@
+#include "DST_Outpost.odf"
+
+originalclass = "fed_outpostY"
+
+unitname = "Outpost"
+tooltip = "Outpost"
+verbosetooltip = "DST_Outpost"
+
+weapon1 = "DST_Marlene"
+weaponhardpoints1 = "root"
+weapon1iconpos = 74	23
+
+//weapon2 = "DST_Marcus"
+//weaponhardpoints2 = "hp05" "hp06"
+//weapon2iconpos = 69	62
+
+showchoicedialog = 1
+ignoreinterface = 1

@@ -1,0 +1,98 @@
+name = "Destroyers"
+
+displaykey = "The Destroyers"
+instantactionslot = 5
+
+repairstrength = 5.0f
+boardingstrength = 1.00f
+retreatstrength = 0.25
+
+crewretreatratio = 0.1
+
+officerres = "GUI_RD_CREDITS_TOOLTIP"
+officertooltip = "GUI_RD_CREDITS_TOOLTIP"
+officerverbosetooltip = "GUI_RD_CREDITS_VTOOLTIP"
+
+creationlabel = "Built"
+recycledlabel = "Decommissioned"
+
+insufficientofficersevent = "InsufficientCredits"
+
+canplaycolonizeplanets = 0
+canplaycollectlatinum = 1
+canplaycapturetheflag = 1
+
+cancommandeer = 1
+canbecommandeered = 1
+
+affectedbypsionicinsanity = 1
+interfaceconfiguration = "gui_Destroyers.cfg"
+interfacesprites = "gui_Destroyers.spr"
+
+singleplayermusic = "Destroyers.mp3"
+
+multiplayermusic = "Destroyers.mp3"
+
+transportsprite = "federationtransport"
+
+transporttofriendsonnoteasy = 1
+transporttoenemyonhard = 1
+
+crewaccumulationrate = 0
+planetcrewaccumulationmodifier = 1.0
+
+citytexturename = "ECFR"
+atmospheretint = 1.0 1.0 1.0
+numcities = 35
+
+crewyellowstatus = 0.7f
+crewredstatus = 0.3f
+repairyellow = 1.0f
+repairred = 1.5f
+weaponyellow = 1.5f
+weaponred = 2.5f
+
+minimalunits1 = "fconst.odf"
+
+standardunits1 = "DST_OutpostS.odf"
+
+//standardunits2 = "DST_AckPresence.odf"
+
+superunits1 = "bconst.odf"
+superunits2 = "fconst.odf"
+superunits3 = "kconst.odf"
+superunits4 = "rconst.odf"
+ctfunits1 = "ctf_fbase.odf"
+ctfunits2 = "ctf_fconst.odf"
+ctfunits3 = "ctf_fconst.odf"
+ctfunits4 = "fscout.odf"
+
+normaldilithium = 0
+normalmetal = 0
+normallatinum = 0
+normalcrew = 999999999
+normalbiomatter = 2000
+
+lotsdilithium = 0
+lotsmetal = 0
+lotslatinum = 0
+lotscrew = 999999999
+lotsbiomatter = 4000
+
+recycledilithiumfraction = .99
+recyclemetalfraction = .99
+
+miningratemodifier = 10.0
+
+cantrade = 1;
+
+allowgivedilithium = 0
+allowgivelatinum = 0
+allowgivemetal = 0
+allowgivebiomatter = 1
+allowgivecrew = 0
+
+preloadunits0 = "fed_mediterraneanY"
+preloadunits1 = "fed_mediterraneanYS"
+preloadunits2 = "fed_mediterraneanZ"
+preloadunits3 = "fed_mediterraneanZS"

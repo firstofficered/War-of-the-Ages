@@ -1,0 +1,114 @@
+basename = "kli_mining_station"
+
+unitname = "Mining Station"
+tooltip = "Mining Station"
+verbosetooltip = "AUTOTOOLTIP-kli_mining_station.odf"
+hotkeylabel = "GAME-HOTKEY-F2"
+
+race = "TCF"
+
+buildtime = 50
+crewcost = 200
+maximumcrew = 500
+latinumcost = 350
+
+worthxp = 74
+
+recyclelatinum = 67
+recycletime = 28
+
+maxhealth = 3759
+curhealth = 3759
+healthrate = 0.819
+
+maxshields = 0
+curshields = 0
+shieldrate = 0
+
+shieldgeneratorhitpoints = 0
+engineshitpoints = 0
+weaponshitpoints = 0
+lifesupporthitpoints = 399
+sensorshitpoints = 399
+
+attackpower = 0.000
+intrinsicvalue = 0.000
+
+eventselect = "KlingonMiningStationSelect"
+
+animation = 2
+footprintbuffer = 150.0f
+
+resourcescanhandle = "latinum"
+
+freightername = "TCF_Frederick"
+
+latinumtransferrate = 10.0
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+
+is_starbase = 1
+classlabel = "mining"
+ainame = "StarbaseProcess"
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0f
+avoidanceclass = 9
+weldingradius = 1.0
+fireball = "x_building_explosion"
+repairyellow = 2.0f
+repairred = 4.0f
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.0625
+weaponsrepairtime = 0.25
+shieldgeneratorrepairtime = 0.25
+sensorsrepairtime = 0.25
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+engineshitpercent = 0.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 78.0f
+facility = 1
+has_crew = 1
+transporter = 1
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+combat = 1
+can_sandd = 0
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 600
+
+//shieldhit = "shield_kli_hitXL"
+//shieldhitcritical = "shield_kli_hitcritXL"
+//shielddown = "shield_kli_down"
+
+possiblecraftnames = 
+	"Ejyowaw" "Cha'puj" "Ko'Va" "QeD botlh" "NuH botlh" "Qab'a'Qach"
+	"Deh'Qua B'lah" "Deh'Qua Nuq" "Deh'Qua Vak" "Deh'Qua Q'tu"
+	"Deh'Qua Kaq" "Deh'Qua N'quth" "Deh'Qua LuQ" "Deh'Qua Boq"
+	"Kang Center" "K'Vril Center" "D'uok Center" "Var'Qap Center"
+	"NuQ'uq Center" "Baht Center" "Qu'Toh Center" "Q'ntar Center"
+	"Duj'a'Qach" "Duj Qach"

@@ -1,0 +1,27 @@
+ordname = "TCFO_Laser-Type6"
+
+wpnname = "Light Laser Cannon"
+tooltip = "Light Laser Cannon"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = .25
+shotdelay1 = .25
+shotdelay2 = .25
+shotdelay3 = 1.5
+
+range = 500
+
+firesound = "TCF_LLC-Fire.wav"
+
+classlabel = "cannonimp"
+
+hitchance = 0.85
+	"DEagle.odf" 0.05
+
+HardpointShift = 1
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

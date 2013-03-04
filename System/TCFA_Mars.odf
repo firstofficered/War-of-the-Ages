@@ -1,0 +1,23 @@
+#include "TCF_Mars.odf"
+
+buildtime = 106
+crewcost = 125
+latinumcost = 277
+
+recyclelatinum = 77
+recycletime = 58
+
+maxhealth = 3154
+curhealth = 3154
+healthrate = 0.308
+
+maxspecialenergy = 227
+specialenergyrate = 0
+
+weapon1 = "TCFW_Laser-Mars"
+weaponhardpoints1 = "hp01"
+weapon1iconpos = 63	50
+
+weapon2 = "TCFW_Torpedo-Mars"
+weaponhardpoints2 = "hp01" "hp02" "hp03"
+weapon2iconpos = 83	40

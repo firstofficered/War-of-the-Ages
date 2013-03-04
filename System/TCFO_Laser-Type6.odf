@@ -1,0 +1,29 @@
+damagebase = 4
+
+damagevariance = 0
+
+damagethreshold = 0
+
+classlabel = "phaser"
+
+sprite = "weapon_phaser"
+
+radius = 10
+
+flareradiusmultiplier = 1
+
+flaresprite = "weapon_phaserflare"
+
+lifespan = 0.20
+
+shotspeed = 1e6
+
+spriteduration = 0.5
+
+shieldduration = 1.0
+
+shieldcrewmodifier = 0
+hullcrewmodifier = 0
+
+explosionhit = "fedW_phaserH"
+explosionshieldhit = "fedW_phaserH"

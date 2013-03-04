@@ -1,0 +1,168 @@
+basename = "fed_sf_engineering"
+
+unitname = "Destroyer Research Center"
+tooltip = "Destroyer Research Center"
+verbosetooltip = "AUTOTOOLTIP-fed_sf_engineeringY.odf"
+
+hotkeylabel = "GAME-HOTKEY-F4"
+race = "Destroyers"
+
+buildtime = 32
+crewcost = 400
+biomattercost = 232
+officercost = 0
+
+worthxp = 150
+
+recyclebiomatter = 186
+recycletime = 24
+
+maxhealth = 634
+curhealth = 634
+healthrate = 2.45
+
+maxshields = 2857
+curshields = 2857
+shieldrate = 3.421
+
+shieldgeneratorhitpoints = 209
+engineshitpoints = 0
+weaponshitpoints = 0
+lifesupporthitpoints = 209
+sensorshitpoints = 209
+
+builditem0 = "DSTR_T1AFGun"
+buildItem0Availability = 32 // PBA_HideFleetCapDenies
+builditem1 = "DSTR_T2LRGun"
+buildItem1Availability = 32 // PBA_HideFleetCapDenies
+builditem2 = "DSTR_T3TSGun"
+buildItem2Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+builditem3 = "DSTR_T4Minigun"
+buildItem3Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+builditem4 = "DSTR_NullGuns"
+buildItem4Availability = 12 // PBA_HideAvTechnology + PBA_HideUnavTechnology
+builditem5 = "DSTR_Galar"
+
+//builditem5 = "DSTR_T5LGPGun"
+//buildItem5Availability = 32 // PBA_HideFleetCapDenies
+//builditem6 = "DSTR_T6MGPGun"
+//buildItem6Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+//builditem7 = "DSTR_T7HGPGun"
+//buildItem7Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+//builditem8 = "DSTR_T8OTPGun"
+//buildItem8Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+//builditem9 = "DSTR_Null2"
+//buildItem9Availability = 12 // PBA_HideAvTechnology + PBA_HideUnavTechnology
+//builditem10 = "DSTR_CloakingShields"
+//buildItem10Availability = 32 // PBA_HideFleetCapDenies
+//builditem11 = "DSTR_Photomon"
+//buildItem11Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+//builditem12 = "DSTR_ADV_Photomon"
+//buildItem12Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+//builditem13 = "DSTR_Quantumic"
+//buildItem13Availability = 40 // PBA_HideFleetCapDenies + PBA_HideUnavTechnology
+//buildItem14 = "DSTR_NullTorpedo"
+//buildItem14Availability = 12 // PBA_HideAvTechnology + PBA_HideUnavTechnology
+//builditem15 = "DSTR_Laser_Cannon"
+//builditem16 = "DSTR_Laser_Bank"
+//builditem17 = "DSTR_Laser_Array"
+//builditem18 = "DSTR_NullLaser"
+//builditem19 = "DSTR_Trilac"
+//builditem20 = "DSTR_Gara"
+//builditem = "DSTR_Chassis-Destroy" // Defender
+//builditem = "DSTR_Chassis-HDestroy"
+//builditem = "DSTR_Chassis-Frighate"
+//builditem = "DSTR_Chassis-LCruiser"
+//builditem = "DSTR_Chassis-Cruiser"
+//builditem = "DSTR_Chassis-HCruiser"
+//builditem = "DSTR_Chassis-BattleShp"
+
+eventselect = "FederationEngineeringSelect"
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+
+research = 1
+footprintbuffer = 120.0f
+animation = 2
+
+//overlaysod = "fed_s_shuttlesM"
+
+podhardpoints = "hp100" "hp101" "hp102" "hp103" "hp104" "hp105" "hp106" "hp107" "hp108" "hp109" "hp110" "hp100" "hp101" "hp102" "hp103" "hp104" "hp105" "hp106" "hp107" "hp108" "hp109" "hp110"
+
+possiblecraftnames = "Al-Haytham Facilities" "Babacan Facilities" "Copernicus Facilities" "Duque Facilities" "Eskew Facilities" "Fieseler Facilities" "Fokker Facilities" "Girardi Facilities" "Kovacevich Facilities" "Kraft Facilities" "Quiroga Facilities" "Ruth Facilities" "Swanson Facilities" "Verdon Facilities" "Wigura Facilities"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04"
+shieldgeneratortargethardpoints = "hp05" "hp06" "hp07" "hp08" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp09" "hp10" "hp11" "hp12"
+hulltargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+criticaltargethardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16"
+
+classlabel = "research"
+
+ainame = "StarbaseProcess"
+
+attackpower = 0
+intrinsicvalue = 0
+
+shielddelay = 2
+
+damagedscan = 50.0f
+
+avoidanceclass = 9
+
+weldingradius = 1.0
+
+fireball = "x_building_explosion"
+
+repairyellow = 2.0f
+repairred = 4.0f
+
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.0625
+weaponsrepairtime = 0.25
+shieldgeneratorrepairtime = 0.25
+sensorsrepairtime = 0.25
+
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+
+engineshitpercent = 0.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 78.0f
+
+is_starbase = 1
+facility = 1
+has_crew = 1
+transporter = 1
+has_hitpoints = 1
+
+checkvalidresourceinterval = 10.0f
+
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+combat = 1
+can_sandd = 0
+
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 600
+
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "empty"

@@ -1,0 +1,41 @@
+#include "DSTW_Gun-TSCGun.odf"
+
+shotcycleresettime = 7.5
+shotdelay0 = 0.08
+shotdelay1 = 0.08
+shotdelay2 = 0.08
+shotdelay3 = 0.08
+shotdelay4 = 0.08
+shotdelay5 = 0.08
+shotdelay6 = 0.08
+shotdelay7 = 0.08
+shotdelay8 = 0.08
+shotdelay9 = 0.08
+shotdelay10 = 0.08
+shotdelay11 = 0.08
+shotdelay12 = 0.08
+shotdelay13 = 0.08
+shotdelay14 = 0.08
+shotdelay15 = 0.08
+shotdelay16 = 0.08
+shotdelay17 = 0.08
+shotdelay18 = 0.08
+shotdelay19 = 0.08
+shotdelay20 = 0.08
+shotdelay21 = 0.08
+shotdelay22 = 0.08
+shotdelay23 = 0.08
+shotdelay24 = 0.08
+shotdelay25 = 0.08
+shotdelay26 = 0.08
+shotdelay27 = 0.08
+shotdelay28 = 0.08
+shotdelay29 = 4.0
+
+range = 750
+
+hitchance = 0.7
+	"DST_Eagle.odf" 0.11
+
+restrictfirearc = 1
+firearc = 1.60

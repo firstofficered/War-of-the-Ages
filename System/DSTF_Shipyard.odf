@@ -1,0 +1,43 @@
+#Include "DST_Shipyard.odf"
+
+unitname = "ShipYard"
+tooltip = "ShipYard"
+verbosetooltip = "AUTOTOOLTIP-fed_antares_yardZ.odf"
+
+buildtime = 40
+crewcost = 300
+biomattercost = 250
+
+worthxp = 35
+
+recyclebiomatter = 185
+recycletime = 22
+
+maxhealth = 783
+curhealth = 783
+healthrate = 0.46
+
+maxshields = 9458
+curshields = 9458
+shieldrate = 3.85
+
+//Buildable ships: Mustang, Defender, Haze Mark-1
+//To be added: Haze Mark-2, Haze Mark-3, Haze Mark-4
+builditem0 = "DSTF_Mustang" //Level 1
+builditem1 = "DSTF_Defender-1" //Level 2
+builditem2 = "DSTF_Haze_MK-1"
+//builditem2 = "DST_Haze_MK-2-F"
+//builditem2 = "DST_Haze_MK-3"
+//builditem3 = "Reloadingpod"
+//builditem4 = "fed_nova"
+//builditem5 = "fed_akiraZ"
+//builditem6 = "fed_canaveralZ"
+//builditem7 = "fed_norway"
+//builditem8 = "all_alliedrepair"
+builditem9 = "all_halt"
+
+weaponshitpoints = 100
+
+weapon1 = "DST_Dock_Reload"
+weaponhardpoints1 = "root"
+weapon1iconpos = 80	50

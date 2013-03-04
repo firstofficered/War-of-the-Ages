@@ -1,0 +1,39 @@
+//Full Impulse is 150
+//Use 3/4 for normal speed and 1/2 for combat
+combatspeed = 75
+impulsespeed = 113
+
+warpspeed = -1
+
+physics = "smooth"
+
+//Not needed, but must be specisfied
+combatphysicsfile = "Haze_combat.odf"
+
+tooclosetoturn = 100;
+pathleaddistance = 400;
+
+forwardaccel = 1.8;
+backwardaccel = 0.7;
+
+turnomega = 0.145;
+turnalpha = 0.24;
+
+pitchomega = 1.0;
+pitchalpha = 0.1;
+
+rollcoupling = 5;
+
+turnomegafractionatrest = 1;
+turnalphafractionatrest = 1;
+
+pitchomegafractionatrest = 1;
+pitchalphafractionatrest = 1;
+
+pitchdefault = 0;
+pitchdefaultspeed = 0.5;
+
+turncontrolsquared = 0;
+turncontrolangle = 20;
+
+forwardcontroldistance = 70;

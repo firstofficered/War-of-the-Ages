@@ -1,0 +1,14 @@
+#include "DSTW_Missile-Archer.odf"
+
+//Basic Missile for a base ship. Nothing fancy.
+
+shotcycleresettime = 1.0
+shotdelay0 = .25
+shotdelay1 = .25
+shotdelay2 = .25
+shotdelay3 = 1.0
+
+range = 700
+
+hitchance = 1
+	"DEagle.odf" 0.2

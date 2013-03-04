@@ -1,0 +1,24 @@
+ordname = "DSTO_Missile_Archer"
+
+wpnname = "Archer Missile Launcher"
+tooltip = "Archer Missile Launcher"
+verbosetooltip = "Destroyer_Weapon-Archer_Missile"
+
+special = 0
+
+firesound = "ArcherMFire.wav"
+
+hitchance = 1
+	"DST_Eagle.odf" 0.2
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+attackspeech = 0

@@ -1,0 +1,49 @@
+#Include "DST_Outpost.odf"
+
+originalclass = "DST_OutpostF"
+
+unitname = "Outpost"
+tooltip = "Outpost"
+verbosetooltip = "DST_OutpostF"
+
+buildtime = 150
+crewcost = 1250
+maxcrewgain = 5000
+biomattercost = 2250
+
+worthxp = 500
+
+recyclebiomatter = 1450
+recycletime = 83
+
+maxhealth = 6000
+curhealth = 6000
+healthrate = 0.15
+
+maxshields = 25000
+curshields = 25000
+shieldrate = 1.8
+
+weapon1 = "All_Empty_Weapon-Slot"
+
+weapon2 = "DSTW_OutpostF-1"
+
+weapon3 = "DSTW_OutpostF-1"
+
+builditem0 = "DSTF_Lark"
+builditem1 = "DST_Romana"
+builditem2 = "DSTF_Mustang"
+//builditem3 = "DST_Defender"
+//builditem4 = "all_supply_routes1"
+//builditem4availability = 32
+//builditem5 = "all_supply_routes2"
+//builditem5availability = 40
+//builditem6 = "all_supply_routes3"
+//builditem6availability = 40
+//builditem7 = "all_supply_routes4"
+//builditem7availability = 40
+//builditem8 = "all_supply_routes5"
+//builditem8availability = 8
+builditem1 = "all_halt"
+
+rangescan = 1500

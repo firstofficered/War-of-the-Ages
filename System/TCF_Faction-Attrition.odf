@@ -1,0 +1,17 @@
+wpnname = "The Attrition"
+tooltip = "The Attrition"
+verbosetooltip = "AUTOTOOLTIP-avatar_fed_risner.odf"
+buttonslot = 2
+replacement0class0 = "TCFA_OutpostS"
+replacementevent = "TCF_Welcome"
+replacementkeepname = 1
+replacementdontremovefootprint = 1
+overrideceasefire = 1
+classlabel = "replaceweapon"
+special = 1
+replacementmaintainorders = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

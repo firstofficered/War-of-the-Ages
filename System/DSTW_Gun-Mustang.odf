@@ -1,0 +1,22 @@
+#include "DSTW_Fighter-Gun.odf"
+
+shotcycleresettime = 2.00
+shotdelay0 = 0.1
+shotdelay1 = 0.1
+shotdelay2 = 0.1
+shotdelay3 = 0.1
+shotdelay4 = 0.1
+shotdelay5 = 0.1
+shotdelay6 = 0.1
+shotdelay7 = 0.1
+shotdelay8 = 0.1
+shotdelay9 = 3.0
+
+restrictfirearc = 1
+firearc = 1.60
+
+hitchance = 1
+	"DST_Eagle.odf" 0.5
+	"DST_Eagle2.odf" 0.5
+	"DST_Vulture.odf" 0.5
+	"DST_Piranha.odf" 0.5

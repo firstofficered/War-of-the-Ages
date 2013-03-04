@@ -1,0 +1,99 @@
+name = "TCF"
+
+displaykey = "The TCF"
+instantactionslot = 6
+
+repairstrength = 5.0f
+boardingstrength = 0.90f
+retreatstrength = 0.25
+
+crewretreatratio = 0.35
+
+officerres = "GUI_RD_CREDITS_TOOLTIP"
+officertooltip = "GUI_RD_CREDITS_TOOLTIP"
+officerverbosetooltip = "GUI_RD_CREDITS_VTOOLTIP"
+
+creationlabel = "Built"
+recycledlabel = "Decommissioned"
+
+insufficientofficersevent = "InsufficientCredits"
+
+canplaycolonizeplanets = 0
+canplaycollectlatinum = 1
+canplaycapturetheflag = 1
+
+cancommandeer = 1
+canbecommandeered = 1
+
+affectedbypsionicinsanity = 1
+interfaceconfiguration = "gui_TCF.cfg"
+interfacesprites = "gui_TCF.spr"
+
+singleplayermusic = "Klingon.mp3"
+
+multiplayermusic = "Klingon.mp3"
+
+transportsprite = "federationtransport"
+
+transporttofriendsonnoteasy = 0
+transporttoenemyonhard = 0
+
+crewaccumulationrate = 0
+planetcrewaccumulationmodifier = 1.0
+
+citytexturename = "ECFR"
+atmospheretint = 1.0 1.0 1.0
+numcities = 35
+
+crewyellowstatus = 0.6f
+crewredstatus = 0.3f
+repairyellow = 1.25f
+repairred = 1.75f
+weaponyellow = 1.5f
+weaponred = 2.5f
+
+minimalunits1 = "fconst.odf"
+
+//standardunits1 = "DST_StarbaseS.odf"
+standardunits1 = "TCF_OutpostS.odf"
+
+standardunits2 = "fed_effectsS.odf"
+
+superunits1 = "bconst.odf"
+superunits2 = "fconst.odf"
+superunits3 = "kconst.odf"
+superunits4 = "rconst.odf"
+ctfunits1 = "ctf_fbase.odf"
+ctfunits2 = "ctf_fconst.odf"
+ctfunits3 = "ctf_fconst.odf"
+ctfunits4 = "fscout.odf"
+
+normaldilithium = 0
+normalmetal = 0
+normallatinum = 4000
+normalcrew = 999999999
+normalbiomatter = 0
+
+lotsdilithium = 0
+lotsmetal = 0
+lotslatinum = 8000
+lotscrew = 999999999
+lotsbiomatter = 0
+
+recycledilithiumfraction = .99
+recyclemetalfraction = .99
+
+miningratemodifier = 1.0
+
+cantrade = 1;
+
+allowgivedilithium = 0
+allowgivelatinum = 1
+allowgivemetal = 1
+allowgivebiomatter = 0
+allowgivecrew = 0
+
+preloadunits0 = "fed_mediterraneanY"
+preloadunits1 = "fed_mediterraneanYS"
+preloadunits2 = "fed_mediterraneanZ"
+preloadunits3 = "fed_mediterraneanZS"

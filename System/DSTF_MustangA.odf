@@ -1,0 +1,7 @@
+#include "DSTF_Mustang.odf"
+
+weapon2 = "Active_Radar"
+
+weapon3 = "Radar_Active"
+
+weapon4 = "MustangModeSwitch"

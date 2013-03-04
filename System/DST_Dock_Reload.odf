@@ -1,0 +1,23 @@
+wpnname = "Hangar"
+tooltip = "Hangar"
+verbosetooltip = "AUTOTOOLTIP-fed_avalonFR.odf"
+buttonslot = 0
+replacementkeepowner = 1
+selectmode = 2
+transferstats = 0
+replacementmaintainorders = 0
+
+replacement0class0 = "DST_Reload-Point"
+
+replacementinstantai = 1
+replacementinstantplayer = 1
+replacementinstantdelay = 0.01
+replacementinstantcycle = 0.01
+cloakenable = 1
+classlabel = "replaceweapon"
+special = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

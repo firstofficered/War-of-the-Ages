@@ -1,0 +1,13 @@
+numberofraces = 12
+race0 = "norace.odf"
+race1 = "npc_ferengi.odf"
+race2 = "observer.odf"
+race3 = "destroyers.odf"
+race4 = "TCF.odf"
+race5 = "dominion.odf"
+race6 = "borg.odf"
+race7 = "federation.odf"
+race8 = "klingon.odf"
+race9 = "romulan.odf"
+race10 = "npc_wreckage.odf"
+race11 = "npc_breen.odf"

@@ -1,0 +1,144 @@
+basename = "fed_outpost"
+
+originalclass = "DST_Outpost"
+
+unitname = "Outpost"
+tooltip = "Outpost"
+verbosetooltip = "DST_Outpost"
+
+race = "Destroyers"
+
+hotkeylabel = "GAME-HOTKEY-F1"
+
+buildtime = 150
+crewcost = 1250
+maxcrewgain = 5000
+biomattercost = 2500
+
+worthxp = 500
+
+recyclebiomatter = 1450
+recycletime = 83
+
+maxhealth = 12000
+curhealth = 12000
+healthrate = 0.25
+
+maxshields = 25000
+curshields = 25000
+shieldrate = 1.5
+
+shieldgeneratorhitpoints = 5000
+engineshitpoints = 0
+weaponshitpoints = 7000
+lifesupporthitpoints = 7500
+sensorshitpoints = 4500
+
+fireball = "x_building2_explosion"
+eventselect = "FederationOutpostSelect"
+animation = 2
+footprintbuffer = 120.0f
+attackpower = 1.000
+intrinsicvalue = 1.000
+
+buildhardpoint = "hp99"
+
+possiblecraftnames = "Starbase 234"
+	"Starbase 475"
+	"Starbase 484"
+	"Starbase 747"
+	"Starbase 836"
+	"Starbase 843"
+	"Starbase 846"
+	"Starbase 847"
+	"Starbase 947"
+	"Starbase 972"
+	"Starbase 983"
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04"
+weapon1iconpos = 74	23
+
+weaponhardpoints2 = "hp05" "hp06"
+weapon2iconpos = 69	62
+
+weaponhardpoints3 = "hp07" "hp08"
+weapon3iconpos = 79	62
+
+//weapon4 = "fed_outpost_upgradeD"
+//weaponhardpoints4 = "root"
+
+//weapon5 = "fed_outpost_upgradeW"
+//weaponhardpoints5 = "root"
+
+//weapon6 = "all_ai_supply"
+//weaponhardpoints6 = "root"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifesupporttargethardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldgeneratortargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24"
+sensorstargethardpoints = "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+hulltargethardpoints = "hp33" "hp34" "hp35" "hp36" "hp37" "hp38" "hp39" "hp40" "hp41" "hp42"
+criticaltargethardpoints = "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50"
+
+is_starbase = 1
+ainame = "StarbaseProcess"
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0f
+avoidanceclass = 9
+weldingradius = 1.0
+
+repairyellow = 2.0f
+repairred = 4.0f
+
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.02
+weaponsrepairtime = 0.145
+shieldgeneratorrepairtime = 0.286
+sensorsrepairtime = 0.335
+
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 0.2f
+lifesupportloss = 0.1
+
+engineshitpercent = 0.0f
+lifesupporthitpercent = 24.0f
+weaponshitpercent = 24.0f
+shieldgeneratorhitpercent = 24.0f
+sensorshitpercent = 0
+crewhitpercent = 1.0f
+hullhitpercent = 27.0f
+
+classlabel = "starbase"
+transporter = 1
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_sandd = 0
+
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 1250
+
+combat = 1
+alert = 1
+facility = 1
+has_crew = 1
+builder_ship = 1
+
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "shield_fed_down"

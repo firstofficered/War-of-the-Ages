@@ -1,0 +1,23 @@
+ordname = "TCFO_Torpedo-MK8"
+
+wpnname = "Type-8 Torpedo Launcher"
+tooltip = "Type-8 Torpedo Launcher"
+verbosetooltip = "AUTOTOOLTIP-fedW_akiraY2.odf"
+
+firesound = "federation_torpedo_photon.wav"
+
+special = 0
+
+hitchance = 1
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+attackspeech = 0

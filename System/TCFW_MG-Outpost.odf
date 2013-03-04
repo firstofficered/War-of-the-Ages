@@ -1,0 +1,13 @@
+#Include "TCFW_MG-Station.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = .10
+shotdelay1 = .10
+shotdelay2 = .10
+shotdelay3 = .10
+shotdelay4 = .10
+shotdelay5 = .10
+shotdelay6 = .10
+shotdelay7 = 1.0
+
+range = 750

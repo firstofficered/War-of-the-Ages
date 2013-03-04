@@ -1,0 +1,28 @@
+wpnname = "Active Radar Ping"
+tooltip = "Active Radar Ping"
+verbosetooltip = "ActiveRadar"
+buttonslot = 0
+replacementkeepowner = 1
+selectmode = 2
+transferstats = 0
+replacementmaintainorders = 1
+
+replacement0class0 = "Active_Scan-Ball"
+replacement0class0position = 0,0,0
+
+replacementevent = "RadarPing"
+
+replacementinstantai = 1
+replacementinstantplayer = 1
+replacementinstantdelay = 8
+replacementinstantcycle = 8
+shotdelay = 0.01
+showrange = 1
+visiblerange = 600
+classlabel = "replaceweapon"
+special = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

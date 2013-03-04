@@ -1,0 +1,16 @@
+#include "TCFA_Outpost.odf"
+
+unitname = "Outpost"
+tooltip = "Outpost"
+verbosetooltip = "AUTOTOOLTIP-kli_kahless_stationY.odf"
+
+//avatarboxicon = "b_avatar_kli_martokS"
+//avatarboxtooltip = "AUTOTOOLTIP-avatar_kli_martok.odf_WithName"
+
+maxshields = 10000
+curshields = 10000
+shieldrate = 0.0
+
+pushbuilditem0 = "TCFA_RichardsonS"
+pushbuilditem1 = "TCFA_YorkS"
+pushbuilditem2 = "TCFA_YorkS"

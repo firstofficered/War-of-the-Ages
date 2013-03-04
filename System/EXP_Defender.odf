@@ -1,0 +1,6 @@
+classlabel = "rumbleexplode"
+explsound = "xsmall.wav"
+dbname = "xplosion03"
+length = 10.0
+rootnode = 1
+createObject = "Debris_DST_Defender"

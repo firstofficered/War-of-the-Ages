@@ -1,0 +1,58 @@
+#include "DST_Haze_MK-1.odf"
+
+//Custom Haze MK-1
+
+verbosetooltip = "DST_Ship-HazeMK-1-F"
+
+xplevel = 1
+//nextrankclass = "DST_Haze_MK-1-R2-F"
+//nextrankxp = 143
+
+worthxp = 54
+
+//The amount of time in seconds required to build the unit.
+buildtime = 23
+
+//The amount of crew required to build the GameObject.
+crewcost = 150
+
+//The amount of Credits required to build the unit.
+//Hull				250 (Haze Mark-1 - H-2250)
+//Engine			2000 (Matter/Anti-Matter)
+//Weapons			460 (360 for 8 Laser Cannons, 100 for 2 Missile Launchers)
+//Shields			150 (Type 4)
+//Armor				100 (Type 3 - 34%)
+//Special			0 (None)
+//Subtotal			2710
+//Popularity Discount		45%
+//Total				1220
+biomattercost = 1220
+
+//Haze Mark-1s are built to last, and they're easy to repair.
+//Base:		2250
+//Armor:	34%
+//Total Hull	3263
+maxHealth = 3263
+curHealth = 3263
+healthrate = 0.6
+
+//Shield tech, back when the Mark-1 was mass produced, was minimal at best. Some enhancements have been made.
+maxshield = 650
+curShield = 650
+shieldrate = 2.0
+
+//Doesnt need ammo. Missiles are replicated as needed.
+maxSpecialEnergy = 0
+specialEnergyRate = 0
+
+weapon1 = "DSTW_LaserCR-CH1" //Laser Cannons
+weapon2 = "DSTW_Archer-CH1" //Archer Missiles
+
+//The amount of resources returned to the player when the Craft is decomissioned.
+recyclesupply = 968
+
+//The length of time the Craft takes to decomission.
+recycletime = 16
+
+physicsfile = "Destroyer_Haze1N_Physics"
+trekphysicsfile = "Destroyer_Haze1N_Physics"

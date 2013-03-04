@@ -1,0 +1,193 @@
+basename = "fed_platform"
+engineshitpoints = 0
+combat = 0
+alert = 0
+ship = 0
+has_crew = 0
+classlabel = "buildyard"
+repairfacility = 0
+decommissionfacility = 0
+builder_ship = 1
+is_starbase = 1
+show_movement_autonomy = 0
+show_sw_autonomy = 0
+footprintbuffer = 10.0f
+destroyfootprint = 1
+buildhardpoint = "root"
+fireball = "x_no_explosion"
+
+moduleconf = "DST_HazeMK-1Mods.odf"
+builditem0 = "DSTF_HazeMK-1_FCM"
+builditem1 = "DSTF_HazeMK-1_FCP"
+builditem2 = "DSTF_HazeMK-1_FGM"
+builditem3 = "DSTF_HazeMK-1_FGP"
+builditem4 = "DSTF_HazeMK-1_FUM"
+builditem5 = "DSTF_HazeMK-1_FUP"
+builditem6 = "DSTF_HazeMK-1_NCM"
+builditem7 = "DSTF_HazeMK-1_NCP"
+builditem8 = "DSTF_HazeMK-1_NGM"
+builditem9 = "DSTF_HazeMK-1_NGP"
+builditem10 = "DSTF_HazeMK-1_NUM"
+builditem11 = "DSTF_HazeMK-1_NUP"
+builditem12 = "DSTF_HazeMK-1_SCM"
+builditem13 = "DSTF_HazeMK-1_SCP"
+builditem14 = "DSTF_HazeMK-1_SGM"
+builditem15 = "DSTF_HazeMK-1_SGP"
+builditem16 = "DSTF_HazeMK-1_SUM"
+builditem17 = "DSTF_HazeMK-1_SUP"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+unitname = "Adaptor"
+tooltip = "Adaptor"
+verbosetooltip = "AUTOTOOLTIP-bor_adaptor.odf"
+race = "borg"
+buildtime = 38
+dilithiumcost = 545
+latinumcost = 305
+biomattercost = 22
+worthxp = 69
+recycledilithium = 163
+recyclelatinum = 51
+recyclebiomatter = 5
+recycletime = 21
+maxhealth = 566
+curhealth = 566
+healthrate = 1.936
+maxshields = 0
+curshields = 0
+shieldrate = 0.000
+shieldgeneratorhitpoints = 0
+weaponshitpoints = 165
+lifesupporthitpoints = 165
+sensorshitpoints = 165
+enginesrepairtime = 0.05
+lifesupportrepairtime = 0.0125
+weaponsrepairtime = 0.0001
+shieldgeneratorrepairtime = 0.05
+sensorsrepairtime = 0.05
+engineshitpercent = 2
+lifesupporthitpercent = 2
+weaponshitpercent = 0
+shieldgeneratorhitpercent = 0
+sensorshitpercent = 0
+crewhitpercent = 2
+hullhitpercent = 94
+lifesupportloss = 0.4
+maxspecialenergy = 431
+specialenergyrate = 3.588
+planet = 1
+canshipyardrepair = 0
+physicsfile = "smooth_physics_120.odf"
+trekphysicsfile = "smooth_physics_120.odf"
+originalclass = "bor_adaptor_TR"
+shipclass = "cruiser"
+shiptype = "C"
+avoidanceclass = 5
+weldingradius = 0.25
+eventselect = "Basic1CruiserSelect"
+eventacknowledge = "Basic1CruiserAcknowledge"
+eventattack = "Basic1CruiserAttack"
+eventstop = "Basic1CruiserStop"
+eventmove = "Basic1CruiserMove"
+eventrepair = "Basic1CruiserRepair"
+ainame = "CraftProcess"
+attackpower = 0
+intrinsicvalue = 0
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+has_hitpoints = 1
+transporter = 1
+can_explore = 1
+can_sandd = 1
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 850
+shieldhit = "shield_bor_hitM"
+shieldhitcritical = "shield_bor_hitcritM"
+shielddown = "empty"
+
+possiblecraftnames = 
+	"Vessel 4100" "Vessel 4170" "Vessel 7240" "Vessel 1310" "Vessel 1380"
+	"Vessel 4101" "Vessel 4171" "Vessel 7241" "Vessel 1311" "Vessel 1381"
+	"Vessel 4102" "Vessel 4172" "Vessel 7242" "Vessel 1312" "Vessel 1382"
+	"Vessel 4103" "Vessel 4173" "Vessel 7243" "Vessel 1313" "Vessel 1383"
+	"Vessel 4104" "Vessel 4174" "Vessel 7244" "Vessel 1314" "Vessel 1384"
+	"Vessel 4105" "Vessel 4175" "Vessel 7245" "Vessel 1315" "Vessel 1385"
+	"Vessel 4106" "Vessel 4176" "Vessel 7246" "Vessel 1316" "Vessel 1386"
+	"Vessel 4107" "Vessel 4177" "Vessel 7247" "Vessel 1317" "Vessel 1387"
+	"Vessel 4108" "Vessel 4178" "Vessel 7248" "Vessel 1318" "Vessel 1388"
+	"Vessel 4109" "Vessel 4179" "Vessel 7249" "Vessel 1319" "Vessel 1389"
+	"Vessel 4110" "Vessel 4180" "Vessel 7250" "Vessel 1320" "Vessel 1390"
+	"Vessel 4111" "Vessel 4181" "Vessel 7251" "Vessel 1321" "Vessel 1391"
+	"Vessel 4112" "Vessel 4182" "Vessel 7252" "Vessel 1322" "Vessel 1392"
+	"Vessel 4113" "Vessel 4183" "Vessel 7253" "Vessel 1323" "Vessel 1393"
+	"Vessel 4114" "Vessel 4184" "Vessel 7254" "Vessel 1324" "Vessel 1394"
+	"Vessel 4115" "Vessel 4185" "Vessel 7255" "Vessel 1325" "Vessel 1395"
+	"Vessel 4116" "Vessel 4186" "Vessel 7256" "Vessel 1326" "Vessel 1396"
+	"Vessel 4117" "Vessel 4187" "Vessel 7257" "Vessel 1327" "Vessel 1397"
+	"Vessel 4118" "Vessel 4188" "Vessel 7258" "Vessel 1328" "Vessel 1398"
+	"Vessel 4119" "Vessel 4189" "Vessel 7259" "Vessel 1329" "Vessel 1399"
+	"Vessel 4120" "Vessel 4190" "Vessel 7260" "Vessel 1330" "Vessel 9400"
+	"Vessel 4121" "Vessel 4191" "Vessel 7261" "Vessel 1331" "Vessel 9401"
+	"Vessel 4122" "Vessel 4192" "Vessel 7262" "Vessel 1332" "Vessel 9402"
+	"Vessel 4123" "Vessel 4193" "Vessel 7263" "Vessel 1333" "Vessel 9403"
+	"Vessel 4124" "Vessel 4194" "Vessel 7264" "Vessel 1334" "Vessel 9404"
+	"Vessel 4125" "Vessel 4195" "Vessel 7265" "Vessel 1335" "Vessel 9405"
+	"Vessel 4126" "Vessel 4196" "Vessel 7266" "Vessel 1336" "Vessel 9406"
+	"Vessel 4127" "Vessel 4197" "Vessel 7267" "Vessel 1337" "Vessel 9407"
+	"Vessel 4128" "Vessel 4198" "Vessel 7268" "Vessel 1338" "Vessel 9408"
+	"Vessel 4129" "Vessel 4199" "Vessel 7269" "Vessel 1339" "Vessel 9409"
+	"Vessel 4130" "Vessel 7200" "Vessel 7270" "Vessel 1340" "Vessel 1410"
+	"Vessel 4131" "Vessel 7201" "Vessel 7271" "Vessel 1341" "Vessel 2411"
+	"Vessel 4132" "Vessel 7202" "Vessel 7272" "Vessel 1342" "Vessel 3412"
+	"Vessel 4133" "Vessel 7203" "Vessel 7273" "Vessel 1343" "Vessel 4413"
+	"Vessel 4134" "Vessel 7204" "Vessel 7274" "Vessel 1344" "Vessel 5414"
+	"Vessel 4135" "Vessel 7205" "Vessel 7275" "Vessel 1345" "Vessel 6415"
+	"Vessel 4136" "Vessel 7206" "Vessel 7276" "Vessel 1346" "Vessel 7416"
+	"Vessel 4137" "Vessel 7207" "Vessel 7277" "Vessel 1347" "Vessel 8417"
+	"Vessel 4138" "Vessel 7208" "Vessel 7278" "Vessel 1348" "Vessel 9418"
+	"Vessel 4139" "Vessel 7209" "Vessel 7279" "Vessel 1349" "Vessel 2419"
+	"Vessel 4140" "Vessel 7210" "Vessel 7280" "Vessel 1350" "Vessel 9420"
+	"Vessel 4141" "Vessel 7211" "Vessel 7281" "Vessel 1351" "Vessel 9421"
+	"Vessel 4142" "Vessel 7212" "Vessel 7282" "Vessel 1352" "Vessel 9422"
+	"Vessel 4143" "Vessel 7213" "Vessel 7283" "Vessel 1353" "Vessel 9423"
+	"Vessel 4144" "Vessel 7214" "Vessel 7284" "Vessel 1354" "Vessel 9424"
+	"Vessel 4145" "Vessel 7215" "Vessel 7285" "Vessel 1355" "Vessel 9425"
+	"Vessel 4146" "Vessel 7216" "Vessel 7286" "Vessel 1356" "Vessel 9426"
+	"Vessel 4147" "Vessel 7217" "Vessel 7287" "Vessel 1357" "Vessel 9427"
+	"Vessel 4148" "Vessel 7218" "Vessel 7288" "Vessel 1358" "Vessel 9428"
+	"Vessel 4149" "Vessel 7219" "Vessel 7289" "Vessel 1359" "Vessel 9429"
+	"Vessel 4150" "Vessel 7220" "Vessel 7290" "Vessel 1360" "Vessel 9430"
+	"Vessel 4151" "Vessel 7221" "Vessel 7291" "Vessel 1361" "Vessel 9431"
+	"Vessel 4152" "Vessel 7222" "Vessel 7292" "Vessel 1362" "Vessel 9432"
+	"Vessel 4153" "Vessel 7223" "Vessel 7293" "Vessel 1363" "Vessel 9433"
+	"Vessel 4154" "Vessel 7224" "Vessel 7294" "Vessel 1364" "Vessel 9434"
+	"Vessel 4155" "Vessel 7225" "Vessel 7295" "Vessel 1365" "Vessel 9435"
+	"Vessel 4156" "Vessel 7226" "Vessel 7296" "Vessel 1366" "Vessel 9436"
+	"Vessel 4157" "Vessel 7227" "Vessel 7297" "Vessel 1367" "Vessel 9437"
+	"Vessel 4158" "Vessel 7228" "Vessel 7298" "Vessel 1368" "Vessel 9438"
+	"Vessel 4159" "Vessel 7229" "Vessel 7299" "Vessel 1369" "Vessel 9439"
+	"Vessel 4160" "Vessel 7230" "Vessel 1300" "Vessel 1370" "Vessel 9440"
+	"Vessel 4161" "Vessel 7231" "Vessel 1301" "Vessel 1371" "Vessel 9441"
+	"Vessel 4162" "Vessel 7232" "Vessel 1302" "Vessel 1372" "Vessel 9442"
+	"Vessel 4163" "Vessel 7233" "Vessel 1303" "Vessel 1373" "Vessel 9443"
+	"Vessel 4164" "Vessel 7234" "Vessel 1304" "Vessel 1374" "Vessel 9444"
+	"Vessel 4165" "Vessel 7235" "Vessel 1305" "Vessel 1375" "Vessel 9445"
+	"Vessel 4166" "Vessel 7236" "Vessel 1306" "Vessel 1376" "Vessel 9446"
+	"Vessel 4167" "Vessel 7237" "Vessel 1307" "Vessel 1377" "Vessel 9447"
+	"Vessel 4168" "Vessel 7238" "Vessel 1308" "Vessel 1378" "Vessel 9448"
+	"Vessel 4169" "Vessel 7239" "Vessel 1309" "Vessel 1379" "Vessel 9449"

@@ -1,0 +1,16 @@
+ordname = "DSTO_Laser-Cannon"
+
+wpnname = "Laser Cannon"
+tooltip = "Laser Cannon"
+verbosetooltip = "DSTW_Laser-Cannon"
+
+firesound = "DST_LaserC-Fire.wav"
+
+classlabel = "cannonimp"
+
+hitchance = 0.5
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 1

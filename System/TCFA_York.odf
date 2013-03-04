@@ -1,0 +1,20 @@
+//York Class, Attrition varient.
+#include "TCF_York.odf"
+
+buildtime = 32
+latinumcost = 325
+
+recyclelatinum = 265
+recycletime = 26
+
+maxhealth = 2562
+curhealth = 2562
+healthrate = 0.655
+
+maxshields = 425
+curshields = 425
+shieldrate = 0
+
+weapon1 = "TCFW_Laser-York"
+
+weapon2 = "TCFW_Torpedo-York"

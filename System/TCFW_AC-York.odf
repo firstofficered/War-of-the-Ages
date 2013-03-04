@@ -1,0 +1,19 @@
+#include "TCFW_AutoCannon.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = 0.2
+shotdelay1 = 0.2
+shotdelay2 = 0.2
+shotdelay3 = 0.2
+shotdelay4 = 0.2
+shotdelay5 = 0.2
+shotdelay3 = 0.2
+shotdelay4 = 0.2
+shotdelay5 = 1.5
+
+range = 600
+
+firesound = "TCF_AC_Fire.wav"
+
+hitchance = 0.96
+	"DST_Eagle.odf" 0.007

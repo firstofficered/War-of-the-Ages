@@ -1,0 +1,40 @@
+damagebase = 1
+
+damagevariance = 0
+
+damagethreshold = 0
+
+shieldcrewmodifier = 0
+
+hullcrewmodifier = 0
+
+//The type of damage applied to a ship
+//0 = Shields, then Hull
+//1 = Hull only
+//2 = Shields only
+damageMode = 1
+
+shotgeometry = "Tracer.SOD"
+
+ignoreshield = 0
+
+lifespan = 3.0
+
+omegaturn = 0
+shotaccel = 100.0
+seektime = 0
+
+//explosionhit = "fedW_quantumH"
+
+//explosionshieldhit = "fedW_quantumHS"
+
+hitsound = "DST_TSCG-IMP.wav"
+
+shotspeed = 700.0
+
+classlabel = "UniTorpedo"
+
+spriteduration = 1
+
+shotcolor = 227
+radius = 8

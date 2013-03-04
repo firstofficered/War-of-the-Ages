@@ -1,0 +1,25 @@
+wpnname = "Haze Mark-1 Hull"
+tooltip = "Haze Mark-1 Hull"
+verbosetooltip = "DSTR_HazeMK-1Hull"
+buttonslot = 5
+replacementmode = 2
+
+replacement0condition = "DST_CustomYard"
+replacement0class0 = "DST_HazeMK-1Hull"
+//replacement1condition = "DSTF_CustomYard"
+//replacement1class0 = "DSTF_HazeMK-1Hull"
+//replacement2condition = "DSTM_CustomYard"
+//replacement2class0 = "DSTM_HazeMK-1Hull"
+
+biomattercost = 250
+replacementevent = "BorgCustomizeVessel"
+replacementkeepname = 1
+overrideceasefire = 1
+classlabel = "replaceweapon"
+special = 1
+replacementmaintainorders = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

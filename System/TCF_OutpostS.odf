@@ -1,0 +1,19 @@
+#include "TCF_Outpost.odf"
+
+weapon1 = "TCF_Faction-AI"
+weaponhardpoints1 = "root"
+
+weapon2 = "TCF_Faction-Vega"
+weaponhardpoints2 = "root"
+
+//weapon3 = "TCF_Faction-Carnegie"
+//weaponhardpoints3 = "root"
+
+weapon3 = "TCF_Faction-Attrition"
+weaponhardpoints3 = "root"
+
+//weapon5 = "TCF_Faction-Sci-Corp"
+//weaponhardpoints5 = "root"
+
+showchoicedialog = 1
+ignoreinterface = 1

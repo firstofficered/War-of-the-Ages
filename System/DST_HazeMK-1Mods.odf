@@ -1,0 +1,97 @@
+numberofmodules = 8
+
+//Power Core
+
+module0group = 0
+module0type = "F"
+module0buttonrect = 96 320 64 64
+module0buttonsprite = "b_DST_Module_Unknown"
+module0buttontooltip = "Fusion Power Core"
+
+module1group = 0
+module1type = "N"
+module1buttonrect = 96 256 64 64
+module1buttonsprite = "b_DST_Module_Unknown"
+module1buttontooltip = "Anti-Matter Power Core"
+
+module2group = 0
+module2type = "S"
+module2buttonrect = 96 192 64 64
+module2buttonsprite = "b_DST_Module_Unknown"
+module2buttontooltip = "Quantum Singularity Power Core"
+
+//Primary Weapon
+
+module3group = 1
+module3type = "G"
+module3buttonrect = 160 320 64 64
+module3buttonsprite = "b_DST_Module_Unknown"
+module3buttontooltip = "Rapid Fire Laser Cannons"
+
+module4group = 1
+module4type = "C"
+module4buttonrect = 160 256 64 64
+module4buttonsprite = "b_DST_Module_Unknown"
+module4buttontooltip = "Laser Cannon"
+
+module5group = 1
+module5type = "U"
+module5buttonrect = 160 192 64 64
+module5buttonsprite = "b_DST_Module_Unknown"
+module5buttontooltip = "Pulse Laser Banks"
+
+//Secondary Weapon
+
+module6group = 2
+module6type = "M"
+module6buttonrect = 224 320 64 64
+module6buttonsprite = "b_DST_Module_Weapon_Archer"
+module6buttontooltip = "Archer Missile"
+
+module7group = 2
+module7type = "P"
+module7buttonrect = 224 256 64 64
+module7buttonsprite = "b_DST_Module_Unknown"
+module7buttontooltip = "Photomon Torpedo"
+
+//module8group = 2
+//module8type = "D"
+//module8buttonrect = 224 192 64 64
+//module8buttonsprite = "b_DST_Module_Unknown"
+//module8buttontooltip = "Advanced Photomon Torpedo"
+
+//module9group = 2
+//module9type = "E"
+//module9buttonrect = 224 128 64 64
+//module9buttonsprite = "b_DST_Module_Unknown"
+//module9buttontooltip = "Polerex Torpedo"
+
+builditem0code = "FCM"
+builditem1code = "FCP"
+builditem2code = "FGM"
+builditem3code = "FGP"
+builditem4code = "FUM"
+builditem5code = "FUP"
+
+builditem6code = "NCM"
+builditem7code = "NCP"
+builditem8code = "NGM"
+builditem9code = "NGP"
+builditem10code = "NUM"
+builditem11code = "NUP"
+
+builditem12code = "SCM"
+builditem13code = "SCP"
+builditem14code = "SGM"
+builditem15code = "SGP"
+builditem16code = "SUM"
+builditem17code = "SUP"
+
+Ctypeallowed = 1
+Ftypeallowed = 1
+Gtypeallowed = 1
+Mtypeallowed = 1
+Ntypeallowed = 1
+Ptypeallowed = 1
+Stypeallowed = 1
+Utypeallowed = 1

@@ -1,0 +1,10 @@
+classlabel = "minebm"
+specialenergycost = 0
+damagebase = 50
+lifespan = 2.8
+shotspeed = 100
+shotgeometry = "effect_mine_dilithium.SOD"
+targetrange = 400.0f
+radiusscale = 7.0
+lengthscale = 5.0
+ignoreshield = 1

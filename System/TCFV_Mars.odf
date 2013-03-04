@@ -1,0 +1,23 @@
+#include "TCF_Mars.odf"
+
+buildtime = 46
+crewcost = 125
+latinumcost = 2144
+
+recyclelatinum = 1835
+recycletime = 27
+
+maxhealth = 3847
+curhealth = 3847
+healthrate = 0.642
+
+maxshields = 1371
+curshields = 1371
+shieldrate = 0
+
+maxspecialenergy = 0
+specialenergyrate = 0
+
+weapon1 = "TCFW_MMG-Mars"
+
+weapon2 = "TCFW_Dagger-Mars"

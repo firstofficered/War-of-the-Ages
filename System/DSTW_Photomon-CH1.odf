@@ -1,0 +1,14 @@
+#include "DSTW_PhotomonF.odf"
+
+//Photomon Torpedoes for custom Haze MK-1s.
+
+shotcycleresettime = 1.0
+shotdelay0 = 0.5
+shotdelay1 = 0.5
+shotdelay2 = 0.5
+shotdelay3 = 1.0
+
+range = 500
+
+hitchance = 1
+	"DEagle.odf" 0.2

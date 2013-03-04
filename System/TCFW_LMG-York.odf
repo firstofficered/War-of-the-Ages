@@ -1,0 +1,27 @@
+ordname = "TCFO_LMG"
+
+wpnname = "Light Machine Gun"
+tooltip = "Light Machine Gun"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = .10
+shotdelay1 = .10
+shotdelay2 = .10
+shotdelay3 = .10
+shotdelay4 = .10
+shotdelay5 = 1.0
+
+range = 425
+
+firesound = "TCF_LMG-Fire.wav"
+
+classlabel = "cannonimp"
+
+hitchance = 0.8
+	"DEagle.odf" 0.01
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

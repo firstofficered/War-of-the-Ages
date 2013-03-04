@@ -1,0 +1,5 @@
+//Starting ship. Has the same stats, but builds faster
+#include "TCFA_York.odf"
+
+buildtime = 5
+latinumcost = 0

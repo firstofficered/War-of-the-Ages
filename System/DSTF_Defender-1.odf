@@ -1,0 +1,168 @@
+unitname = "Defender Class"
+tooltip = "Defender Class"
+verbosetooltip = "AUTOTOOLTIP-DST_Defender.odf"
+
+race = "Destroyer"
+
+//xplevel = 1
+//nextrankclass = "DST_DefenderF2"
+//nextrankxp = 5000
+worthxp = 60
+
+//buildtime = 28
+buildtime = 5
+crewcost = 170
+
+//Credit Cost
+//Hull:		250 (Level 2 'Defender' - 500)
+//Weapons:	1588 (640 for AF Guns, 480 for TS Guns, and 468 for a Quantumic Torpedo)
+//Shields:	250
+//Armor:	300 (42%)
+//Other:	450 (Hanger)
+//Total:	2838
+biomattercost = 2838
+
+recyclebiomatter = 2354
+recycletime = 21
+
+//Hull
+//Base:		500
+//Armor:	42%
+//Total:	710
+maxhealth = 710
+curhealth = 710
+healthrate = 0.65
+
+maxshields = 1500
+curshields = 1500
+shieldrate = 2.294
+
+shieldgeneratorhitpoints = 142
+engineshitpoints = 142
+weaponshitpoints = 142
+lifesupporthitpoints = 142
+sensorshitpoints = 142
+
+maxspecialenergy = 380
+specialenergyrate = 0
+
+attackpower = 1.000
+intrinsicvalue = 1.000
+
+hotkeylabel = "GAME-HOTKEY-D"
+
+physicsfile = "smooth_physics_130.odf"
+trekphysicsfile = "smooth_physics_130.odf"
+
+weapon1 = "DSTW_Gun-DefenderF-R1"
+weaponhardpoints1 = "hp01"
+weapon1iconpos = 67	28
+
+weapon2 = "DSTW_Gun-DefenderF-R1"
+weaponhardpoints2 = "hp02"
+weapon2iconpos = 67	72
+
+weapon3 = "DSTW_Torpedo-DefenderF-R1"
+weaponhardpoints3 = "hp11"
+weapon3iconpos = 70	50
+
+//weapon4 = "DST_CloakingShieldsF"
+//weaponhardpoints4 = "root"
+//weapon4iconpos = 80	60
+
+//weapon5 = "DST_Weapon-AntiFighter"
+//weaponhardpoints5 = "hp11"
+
+//weapon6 = "DDefenderH"
+//weaponhardpoints6 = "root"
+//weapon6iconpos = 80	40
+
+enginestargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+lifesupporttargethardpoints = "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponstargethardpoints = "hp01" "hp02" "hp11"
+shieldgeneratortargethardpoints = "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorstargethardpoints = "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hulltargethardpoints = "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticaltargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+possiblecraftnames = "USS Achilles" "USS Acrux" "USS Albacore" "USS Ambush" "USS Atlanta" "USS Atule" "USS Bergall" "USS Brigand" "USS Bullhead" "USS Canopus" "USS Capella" "USS Castor" "USS Cavalier" "USS Cavalla" "USS Concord" "USS Crisis" "USS Dace" "USS Descartes" "USS Destiny" "USS Dominance" "USS Electra" "USS Elite" "USS Enkidu" "USS Falkland" "USS Fearless" "USS Garth" "USS Gaskell" "USS George" "USS Goldberg" "USS Greeneville" "USS Grenadier" "USS Hansen" "USS Heroic" "USS Housatonic" "USS Infiltrator" "USS Interceptor" "USS Isoc" "USS Jefferson" "USS Lagan" "USS Lincoln" "USS Lion" "USS Monitor" "USS Morgan" "USS Naval" "USS Newell" "USS Onyx" "USS Pavlov" "USS Phantom" "USS Propus" "USS Proxima" "USS Quiver" "USS Rana" "USS Redoubt" "USS Renegade" "USS Resilient" "USS Ryento" "USS Sacramento" "USS Sahara" "USS Scorpion" "USS Seal" "USS Security" "USS Seeker" "USS Seginus" "USS Serpent" "USS Steelhead" "USS Talon" "USS Talos" "USS Tarantula" "USS Thuban" "USS Tomahawk" "USS Tresher" "USS Vampire" "USS Velociraptor" "USS Vindicator" "USS Viper" "USS Viyuga" "USS Vulture" "USS Xavier" "USS Xiphos" "USS Zosma"
+
+shipclass = "battleship"
+shiptype = "B"
+
+enginesrepairtime = 1.0
+lifesupportrepairtime = 0.15
+weaponsrepairtime = 0.6
+shieldgeneratorrepairtime = 0.4
+sensorsrepairtime = 1.0
+
+avoidanceclass = 8
+weldingradius = 0.25
+
+officercost = 0
+
+fireball = "EXP_Defender"
+
+eventselect = "DestroyerFemaleBasicSelect"
+eventacknowledge = "DestroyerFemaleBasicAcknowledge"
+eventattack = "DestroyerFemaleBasicAttack"
+eventstop = "DestroyerFemaleBasicStop"
+eventmove = "DestroyerFemaleBasicMove"
+eventrepair = "DestroyerFemaleBasicRepair"
+
+classlabel = "craft"
+ainame = "CraftProcess"
+
+shielddelay = 2
+
+damagedscan = 50.0
+
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+
+engineshitpercent = 7.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 71.0f
+
+ship = 1
+
+has_hitpoints = 1
+
+has_crew = 1
+
+transporter = 1
+
+alert = 1
+
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+
+can_explore = 1
+
+combat = 1
+
+can_sandd = 1
+
+buildablebyownerraceonly = 1
+
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+
+maxextraweapons = 10
+
+rangescan = 1000
+
+basename = "DST_Defender"
+
+shieldhit = "shield_fed_hitM"
+shieldhitcritical = "shield_fed_hitcritM"
+shielddown = "Empty"

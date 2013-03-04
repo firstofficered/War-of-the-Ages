@@ -1,0 +1,25 @@
+ordname = "DSTO_LaserBank-Pulse"
+
+wpnname = "Laser Bank (Pulse)"
+tooltip = "Laser Bank (Pulse)"
+verbosetooltip = "Destroyer_Weapon-LaserBankP"
+
+firesound = "DST_Laser_BankP-Fire.wav"
+
+special = 0
+
+hitchance = 0.6
+	"DST_Eagle" 0.2
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+
+attackspeech = 0

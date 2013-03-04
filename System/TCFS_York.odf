@@ -1,0 +1,23 @@
+//York Class, Sci-Corp varient.
+#include "TCF_York.odf"
+
+buildtime = 22
+latinumcost = 314
+
+recyclelatinum = 221
+recycletime = 16
+
+maxhealth = 2750
+curhealth = 2750
+healthrate = 0.655
+
+maxshields = 870
+curshields = 870
+shieldrate = 0
+
+weapon1 = "TCFW_Plasma-York"
+
+weapon2 = "TCFW_Torpedo-York"
+
+shieldhit = "shield_fed_hitM"
+shieldhitcritical = "shield_fed_hitcritM"

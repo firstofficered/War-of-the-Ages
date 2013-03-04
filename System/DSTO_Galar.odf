@@ -1,0 +1,12 @@
+specialenergycost = 50
+classlabel = "holding_bm"
+boardingdelay = 1
+boardinginterval = 1
+boardingsize = 0
+lifespan = 30.0
+shotspeed = 100
+shotgeometry = "effect_tractorbeam.sod"
+radiusscale = 7.5
+lengthscale = 5
+ignoreshield = 1
+forceinvalidatetarget = 1

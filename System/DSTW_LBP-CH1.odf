@@ -1,0 +1,12 @@
+#Include = "DSTW_LaserBank-Pulse.odf"
+
+//verbosetooltip = "Destroyer_Weapon-LaserBankP"
+
+range = 600
+
+shotcycleresettime = 1.0
+shotdelay0 = .25
+shotdelay1 = .25
+shotdelay2 = .25
+shotdelay3 = .25
+shotdelay4 = 1.0

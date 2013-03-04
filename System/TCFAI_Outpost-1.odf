@@ -1,0 +1,19 @@
+#include "TCF_Outpost.odf"
+
+builditem0 = "TCF_Richardson"
+//builditem1 = "TCF_Frederick"
+builditem1 = "TCF_York"
+//builditem3 = "TCF_Mars"
+//builditem4 = "TCF_Wolf"
+//builditem5 = "TCF_Washington"
+//builditem6 = "all_supply_routes3_kli"
+//builditem6availability = 40
+//builditem7 = "all_supply_routes4_kli"
+//builditem7availability = 40
+//builditem8 = "all_supply_routes5_kli"
+//builditem8availability = 8
+//builditem9 = "all_halt"
+
+//weapon1 = "TCF_Weapon_Laser-Outpost"
+
+//weapon2 = "TCF_Point_Defense_Guns"

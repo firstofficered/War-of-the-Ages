@@ -1,0 +1,9 @@
+#include "DSTF_Shipyard.odf"
+
+buildtime = 5
+podhardpoints = "hp99"
+
+builditem8 = "Reload_Pod"
+
+//weapon1 = "Start_Reloading"
+//weaponhardpoints1 = "root"

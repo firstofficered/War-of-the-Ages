@@ -1,0 +1,276 @@
+//Base ship for both avatars, possably the AI or Warpin
+
+//Used for the GameObject's in-game tooltip. 
+//It is the name of the unit's class in the unit display window and in the Map Editor menu and the tooltip.
+unitname = "Type-1 Haze Class"
+
+//The first tooltip displayed (replaces unitName when hovered).
+tooltip = "Haze Class"
+
+//Longer description of the GameObject that pops up when the GameObject is hovered for longer. Appears below the tooltip.
+//The Dynamic_Localized_Strings.h file can be used to save space and store longer, more complex tooltips.
+verbosetooltip = "Destroyer_Ship-Haze_MK-1"
+
+//Determines which race the GameObject belongs to and thus sets the global attributes of the GameObject.
+race = "destroyer"
+
+//The amount of time in seconds required to build the unit.
+buildtime = 43
+
+//The amount of officers required to build the GameObject.
+officercost = 0
+
+//The amount of crew required to build the GameObject.
+crewcost = 150
+
+//The amount of supply / biomatter required to build the unit.
+//Hull				250 (Haze Mark-1 - H-2100)
+//Engine			2000 (Quantum Singularity)
+//Weapons			1800 (1000 for 8 Laser Cannons, 100 for 2 Missile Launchers)
+//Shields			150 (Type 4)
+//Armor				100 (Type 3 - 34%)
+//Special			0 (None)
+//Subtotal			4300
+//Popularity Discount		45%
+//Total				2365
+biomattercost = 2365
+
+//Sets the hitpoints of the GameObject when it has been produced and its maximum amount of hull hitpoints.
+//Base:		1200
+//Armor:	34%
+//Total Hull	1488
+maxHealth = 2900
+
+//Begining Hull Strength
+curHealth = 2900
+
+//Amount of hull hitpoints regenerated per second.
+healthrate = 0.975
+
+//Sets the hitpoints of the GameObject when it has been produced and its maximum amount of shield hitpoints.
+maxshield = 550
+
+//Begining Shield Strength
+curShield = 550
+
+//Amount of shield hitpoints regenerated per second.
+shieldrate = 2.5
+
+//The maximum amount of Special Energy of the GameObject.
+maxSpecialEnergy = 250
+
+//Amount of special weapons energy regenerated per second.
+specialEnergyRate = 0
+
+//How is the Special Energy displayed.
+specialenergydisplaymode = 1
+
+//SYSTEM HITPOINTS
+//The amount of hitpoints the subsystem has. If the subsystem hitpoints are set to 0, the Craft does not have that subsystem
+//(and the icon for the subsystem appears greyed out): crewless Craft do not need the subsystem.
+//shields will not be regenerated after loss.
+//However a Craft may still start out with shield hitpoints and the shield hitpoints can be regained via Shipyard or RepairShip repair.
+shieldgeneratorhitpoints = 40
+//Even if the Craft has enginesHitpoints defined, a Craft must have a valid physicsFile set as well in order to move about the battlefield.
+engineshitpoints = 60
+//any weapons the Craft may have cannot be used.
+weaponshitpoints = 60
+//crewless Craft do not need the subsystem.
+lifesupporthitpoints = 60
+//rangeScan will effectively be 0.
+sensorshitpoints = 30
+
+//SHIP NAMES
+
+//Lists the possible names for the Craft, If all names have been used once, additional craft of this type will reuse the same names with an additional letter suffix.
+possiblecraftnames =
+"DSS Asama" "DSS Grasaca" "DSS Rapada" "DSS Six" "DSS Madaz"
+"DSS Klea" "DSS Lesbo" "DSS La'ba" "DSS Laga falls"
+"DSS Pale" "DSS Marona" "DSS To'ga" "DSS Tempo"
+"DSS Rotura" "DSS Tofu" "DSS Meat Grinder" "DSS Falson"
+"DSS Koroem" "DSS Tavana" "DSS Wally" "DSS Managouba"
+"DSS Goku" "DSS Hakera" "DSS Tarsos" "DSS Santa"
+"DSS Camalos" "DSS Bardra" "DSS Susan" "DSS Mana"
+"DSS Mars" "DSS Abit" "DSS Menega" "DSS Longevity"
+"DSS Vesuvis" "DSS Isis" "DSS Vuldes" "DSS Leanardo"
+"DSS Mayen" "DSS Krafaga" "DSS Keverk'joll" "DSS Cowabunga"
+"DSS Helka"  "DSS Kasafa" "DSS Fasfa" "DSS King of Fortune"
+
+//Laser weapons is set to Weapon1 and missile/torpedo weapons to Weapon2. Defined in the child ODFs. May be used for AI.
+//weapon3 = "Passive_DST_Armor3"
+//weapon4 = "SingKill" Probably going to remove.
+
+//WeaponHPs1 is for lasers, and 2 is for missiles/torpedoes
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponhardpoints2 = "hp09" "hp10"
+weaponhardpoints3 = "root"
+//weaponhardpoints4 = "root"
+
+//Determines the location of icons on the wireframe that are used to indicate weapons / abilities.
+weapon1iconpos = 67	50 // values are x y
+weapon2iconpos = 62	50 // values are x y
+weapon3iconpos = 40	30 // values are x y
+
+// Determines where weapon fire will hit when striking the hull.
+hulltargethardpoints = "root" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+// Determines where weapon fire will hit when striking the subsystem.
+lifesupporttargethardpoints = "root"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldgeneratortargethardpoints = "root"
+sensorstargethardpoints = "root"
+enginestargethardpoints = "root"
+criticaltargethardpoints = "root"
+
+//Influences how the AI evaluates and compares Craft to determine attack priorities
+attackpower = 0.5
+
+//Determines the intrinsic value of a target for AI global goal evaluation (influences where the AI attacks):
+//locations with higher intrinsicValue Craft are preferred targets.
+intrinsicvalue = 0.5
+
+//CREW STATUS MULTIPLIERS
+//The multiplier for the shotDelay of weapons while in yellow crew status.
+weaponYellow = 
+
+//The multiplier for the shotDelay of weapons while in red crew status.
+weaponRed = 
+
+//Refers to the GameObject's hotkey as specified in the input.map file. Cannot have spaces between letters.
+hotkeylabel = ""
+
+//Modifies the size of the GameObject by this percent. A SOD model with animations will become distorted.
+ScaleSOD = 1
+
+//Used for determining statistics in the Admiral's Log.
+shipclass = "cruiser"
+
+//MESSAGE & SOUND PARAMETERS
+//The value should be a reference to a section in the events.dat file
+//The event that is played when the Craft is selected.
+eventselect = "Basic3CruiserSelect"
+//The event that is played when the Craft is ordered to change movement, special weapons autonomies, or use a special weapon.
+eventacknowledge = "Basic3CruiserAcknowledge"
+//The event that is played when the Craft is given an attack command.
+eventattack = "Basic3CruiserAttack"
+//The event that is played when the Craft is given a stop command.
+eventstop = "Basic3CruiserStop"
+//The event that is played when the Craft is given a movement command.
+eventmove = "Basic3CruiserMove"
+//The event that is played when the Craft is given a repair command.
+eventrepair = "Basic3CruiserRepair"
+
+//PHYSICS PARAMETERS
+//Determines which Physics configuration ODF file will be used for this Craft to specify all aspects of its movement.
+physicsfile = "Destroyer_Haze1S_Physics"
+//Determines which Physics configuration ODF file will be used for this Craft to specify all aspects of its movement.
+trekphysicsfile = "Destroyer_Haze1S_Physics"
+//Maximum value seems to be 1000 as used on AsteroidField class by default.
+avoidanceclass = 6
+
+//Used to determine the Craft's position in an AI formation.
+shiptype = "C"
+
+//Determines how long in seconds it takes for shield regeneration to resume once the shields are down.
+shielddelay = 1.5
+
+//Sets the radius for the line of sight of the Craft when its sensor subsystem is operational.
+rangescan = 800
+
+//Sets the radius for the line of sight of the Craft when its sensor subsystem is destroyed.
+damagedscan = 150
+
+//SYSTEM REPAIR RATES
+//The amount of time in seconds to repair one hitpoint of damage to the subsystem.
+//The value can be modified by the Faction configuration commands and the current crew status.
+enginesrepairtime = 1.0
+lifesupportrepairtime = 0.2
+weaponsrepairtime = 1.0
+shieldgeneratorrepairtime = 1.0
+sensorsrepairtime = 1.0
+
+//CREW CASUALTY FOR SYSTEM DESTRUCTION
+//Percent of crew lost (out of the total remaining) when the subsystem is destroyed (1.0 = 1.0%).
+enginescrewloss = 2.0
+lifesupportcrewloss = 2.0
+weaponscrewloss = 2.0
+shieldgeneratorcrewloss = 2.0
+sensorscrewloss = 2.0
+lifesupportloss = 2.0
+
+//SYSTEM DAMAGE DISTRIBUTION
+//The following sections values should add up to 100
+//Percent Chance out of 100 of each system being destroyed
+engineshitpercent = 7.0
+lifesupporthitpercent = 7.0
+weaponshitpercent = 7.0
+shieldgeneratorhitpercent = 2.0
+sensorshitpercent = 7.0
+crewhitpercent = 7.0
+hullhitpercent = 70.0
+
+//Specifies what set of commands are avaliable to the odf.
+classlabel = "craft"
+
+//Sets the GameObject's AI to fit a function specified by the classlabel.
+ainame = "CraftProcess"
+
+//Determines which Explosion ODF to use when the Craft is destroyed.
+fireball = "EXP_Haze_MK-1"
+
+//This defines an alternate SOD file to use
+//It will also use the build button and ship images associated with the alternate SOD file.
+//basename = "DST_Haze_MK1"
+basename = "DST_Haze_Mark-1"
+
+//The current experience level of the Craft. If XPlevel is not set, the Craft cannot level up.
+//Also used to determine which rank icon to display when the Craft levels up.
+xplevel = 
+
+//Determines the Craft that it replaces into when replaced into its next rank.
+nextrankclass = ""
+
+//The amount of experience required by the Craft to be replaced into its next rank.
+nextrankxp = 
+
+//Determines the amount of experience this Craft gives to the unit that destroyed it.
+//Does not spillover to the next rank if a Craft ranks up.
+worthxp = 
+
+//The amount of resources returned to the player when the Craft is decomissioned.
+recyclesupply = 968
+
+//The length of time the Craft takes to decomission.
+recycletime = 21
+
+//This is also the maximum number of extraWeapons a Craft may carry.
+maxextraweapons = 10
+
+//Hardpoints of where added weapons are used
+extraweaponhardpoints = "root"
+
+//Determines the SOD used to display the shield animation when the shields of the Craft are above 20%.
+shieldhit = "shield_fed_hitM"
+
+//Determines the model used to display the shield animation when the shields of the Craft are below 20%, but not zero hitpoints.
+shieldhitcritical = "shield_fed_hitcritM"
+
+//Determines the model used to display the shield animation when the shields of the Craft are at zero hitpoints.
+shielddown = "empty"
+
+//Used as a relay for the Commands configuration files.
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+combat = 1
+can_sandd = 1
+
+//When set to true (1), the Craft may only be built by the faction it belongs to.
+buildablebyownerraceonly = 1
+
+//for more information on ODF commands please visit:
+//http://guide.fleetops.net/guide/modding/odf-commands

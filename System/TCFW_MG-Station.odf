@@ -1,0 +1,17 @@
+ordname = "TCFO_MG-Station"
+
+wpnname = "Station Grade Machine Gun"
+tooltip = "Station Grade Machine Gun"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+firesound = "TCF_HMG-Fire.wav"
+
+classlabel = "cannonimp"
+
+hitchance = 0.86
+	"DEagle.odf" 0.01
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

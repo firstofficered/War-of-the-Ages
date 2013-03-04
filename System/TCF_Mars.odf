@@ -1,0 +1,194 @@
+basename = "kli_vorcha"
+//the Recon, was a Mars class cruiser. She had multiple torpedo tubes, but only four laser cannons, which covered the fore and aft sections of the ship
+
+unitname = "Mars Class"
+tooltip = "Mars Class"
+verbosetooltip = "AUTOTOOLTIP-kli_vorchaY.odf"
+
+hotkeylabel = "GAME-HOTKEY-V"
+
+race = "TCF"
+
+buildtime = 58
+crewcost = 280
+latinumcost = 2585
+
+worthxp = 81
+
+recyclelatinum = 2585
+recycletime = 39
+
+maxhealth = 2653
+curhealth = 2653
+healthrate = 0.308
+
+maxshields = 2857
+curshields = 2857
+shieldrate = 0
+
+maxspecialenergy = 225
+specialenergyrate = 0
+
+shieldgeneratorhitpoints = 0
+engineshitpoints = 84
+weaponshitpoints = 84
+lifesupporthitpoints = 84
+sensorshitpoints = 84
+
+attackpower = 1.000
+intrinsicvalue = 1.000
+physicsfile = "smooth_physics_100.odf"
+trekphysicsfile = "smooth_physics_100.odf"
+
+weaponhardpoints1 = "hp01"
+weapon1iconpos = 63	50
+
+weaponhardpoints2 = "hp01" "hp02" "hp03"
+weapon2iconpos = 83	40
+
+weaponhardpoints3 = "root"
+weapon3iconpos = 78	50
+
+weaponhardpoints4 = "root"
+weapon4iconpos = 83	60
+
+enginestargethardpoints = "hp24" "hp26"  "hp27" "hp28"
+lifesupporttargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponstargethardpoints = "hp01" "hp02" "hp03"
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+sensorstargethardpoints = "hp18" "hp19" "hp20" "hp21"
+hulltargethardpoints = "hp18" "hp19" "hp20" "hp21"
+criticaltargethardpoints = "hp29" "hp30" "hp31" "hp32"
+
+eventselect = "Basic2CruiserSelect"
+eventacknowledge = "Basic2CruiserAcknowledge"
+eventattack = "Basic2CruiserAttack"
+eventstop = "Basic2CruiserStop"
+eventmove = "Basic2CruiserMove"
+eventrepair = "Basic2CruiserRepair"
+
+shipclass = "cruiser"
+shiptype = "C"
+
+//boardingpartystrength = 1.1
+
+enginesrepairtime = 1.0
+lifesupportrepairtime = 0.25
+weaponsrepairtime = 1.0
+shieldgeneratorrepairtime = 0
+sensorsrepairtime = 1.0
+
+avoidanceclass = 5
+weldingradius = 0.25
+
+fireball = "x_large_explosion"
+
+classlabel = "craft"
+ainame = "CraftProcess"
+officercost = 0
+shielddelay = 2
+
+damagedscan = 50.0
+
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+
+engineshitpercent = 7.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 71.0f
+
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+combat = 1
+can_sandd = 1
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 850
+
+shieldhit = "effect_empty"
+shieldhitcritical = "effect_empty"
+shielddown = "effect_empty"
+
+possiblecraftnames = 
+	"IKS Death's Hand" "IKS Vengeance" "IKS Blue Fire" "IKS Kolicos" "IKS Fury" "IKS Two Fingers"
+	"IKS Sword of Kahless" "IKS War Song" "IKS Jinxxslayer" "IKS Fencer" "IKS Quake" "IKS Invincible"
+	"IKS Insatiable" "IKS Carnivorous" "IKS Inviolable" "IKS Invulnerable" "IKS Incomparable"
+	"IKS Atrocity" "IKS Victory" "IKS Insufferable" "IKS Indisputable" "IKS Incomparable"
+	"IKS Dareslayer" "IKS Darkslayer" "IKS Damnslayer" "IKS Deathslayer" "IKS Deedslayer"
+	"IKS Deftslayer" "IKS Deepslayer" "IKS Demonslayer" "IKS Devilslayer" "IKS Direslayer"
+	"IKS Dirkslayer" "IKS Dimslayer" "IKS Divineslayer" "IKS Doomslayer" "IKS Doubtslayer"
+	"IKS Dourslayer" "IKS Dragonslayer" "IKS Droitslayer" "IKS Dreadslayer" "IKS Dreamslayer"
+	"IKS Duelslayer" "IKS Annihilation" "IKS Antagonist" "IKS Attacker" "IKS Avenger"
+	"IKS Challenger" "IKS Chieftain" "IKS Conqueror" "IKS Courageous" "IKS Crusher" "IKS Decimator"
+	"IKS Defiler" "IKS Demolisher" "IKS Devastator" "IKS Devisor" "IKS Killer" "IKS Klothos"
+	"IKS Merciless" "IKS Nemesis" "IKS Pitiless" "IKS Relentless" "IKS Ruthless" "IKS Savage"
+	"IKS TuQmeh" "IKS Jawbogh" "IKS NabVad" "IKS Qu'ta'Dl'Hegh" "IKS QumHa'bogh" "IKS Qochbe'meH"
+	"IKS QuSmey" "IKS Dotlh" "IKS Vuplu'bejnes" "IKS Qo'Joh" "IKS Satlho'Qu'tlh" "IKS IwwIj'ay'Hom"
+	"IKS DaDabej" "IKS Heghta'meH" "IKS Ha'QeDjaj" "IKS Waghqu'ngeh" "IKS Chora'chugh"
+	"IKS JeH'jhong" "IKS Ma'tlhej" "IKS Ta'rom" "IKS Pey'Suq" "IKS Vangshu'a'" "IKS Ho'a'chaID"
+	"IKS Ghol'quS" "IKS QIghpej" "IKS Satlh'QaH" "IKS GhuH'nov" "IKS Nov'Hoch" "IKS Loj'boq"
+	"IKS LoS'SaD" "IKS Qetbogh" "IKS Pe'egh" "IKS PoHmey'vav" "IKS Giz'ta'bek" "IKS Kempec"
+	"IKS Kang" "IKS HI'a'pIm" "IKS Yinlu'taH" "IKS BajnISlu'" "IKS QaStaHvIS" "IKS Boyn'Ton"
+	"IKS Sa'Hmo" "IKS QaHjaj" "IKS J'Hvad" "IKS Durl'gha" "IKS Vav'Daj" "IKS InSaya" "IKS LenglaHll"
+	"IKS Navvetlh" "IKS Qa'wl'Ho'vad" "IKS Nobta'Gha" "IKS Mu'vetlh" "IKS DoqDaq" "IKS De'vam"
+	"IKS Hevpu'a" "IKS QaIprup" "IKS SoQvetlh" "IKS Mu'Qujllj" "IKS Do'Ha'oh" "IKS De'na'llj"
+	"IKS Qu'Daj" "IKS Do'Ha'wl" "IKS Satlhob" "IKS Beht'tlh" "IKS Qi'Tu" "IKS DuQmoHmo"
+	"IKS LunoHlaH" "IKS MorghmeH" "IKS HarQo" "IKS Hergwl'e" "IKS Ta'Daq" "IKS Hlquem"
+	"IKS Ta'qa'oH" "IKS Samta'meH" "IKS GhopeghHa" "IKS JoHwl" "IKS Chay'jangIS" "IKS Herghwl"
+	"IKS BlQaDqa" "IKS Ghu'vam" "IKS Datlhappu'neS" "IKS E'ylHarQo" "IKS Chu'slu" "IKS Datu'a"
+	"IKS Ta'PuqloDe'e" "IKS HoS" "IKS HeHDaq" "IKS PaghHey" "IKS BurghDaq" "IKS Vay'ylngeH"
+	"IKS GhaHtaH" "IKS Ql'tu'Daq" "IKS Sambe'chugh" "IKS OchDaq" "IKS Maj'targh" "IKS TujyopwaH"
+	"IKS Vatlh'pI" "IKS MoDtIq" "IKS DeghwI'" "IKS TlhIb'" "IKS Nuj'ghich" "IKS Min'QOM"
+	"IKS May'morgh" "IKS SIH'chor" "IKS JaqHom" "IKS DaSpu'Dal" "IKS Yab'loD" "IKS Qogh'a'Huy"
+	"IKS 'TlhuH" "IKS QueloDmI'" "IKS Chen'a'meQ" "IKS Waq'bach" "IKS Qigh'yoD" "IKS Dop'puS"
+	"IKS Qit'ong" "IKS Vum'ghargh" "IKS PIvghor" "IKS Bej'joq" "IKS MaHmuSSoH" "IKS Hurgh'a'"
+	"IKS Mep'reH" "IKS Qay'lIng" "IKS DaQ'Qat" "IKS RoghvaH" "IKS BighHa'" "IKS HoSghaj"
+	"IKS VatlhvI'" "IKS Nagh'nuS" "IKS Hej'leng" "IKS LengwI'qet" "IKS BortaS'tej" "IKS Nav'Don"
+	"IKS Nong'ngIv" "IKS Qap'Hurgh" "IKS Vup'Quj" "IKS Pongbe'Hom" "IKS Jot'raQ" "IKS Ngup'HoD"
+	"IKS HoDDISloD" "IKS YepHa'Hom" "IKS ChoH'yov" "IKS Huj'jaw" "IKS VuS'tlhegh" "IKS Lam'ngor"
+	"IKS Chop'jIV" "IKS SuS'a'ghor" "IKS Hoj'lop" "IKS Chal'Qong" "IKS Mach'val" "IKS PeD'vaj"
+	"IKS Tun'Sub" "IKS Let'yob" "IKS WuQ" "IKS Tiq'a'luj" "IKS Ngeb'meH" "IKS LoSpev'bup"
+	"IKS WeH'tlhoj" "IKS Chep'Qan" "IKS Lum'woQ" "IKS Pu'wanI" "IKS Pu'beH" "IKS YuQHom"
+	"IKS CholjaH" "IKS ToD'qeH" "IKS LaD'chuq" "IKS Sol'um'yu'" "IKS Dom'SIS" "IKS Ghobe'mIm"
+	"IKS Sap'wot" "IKS Qap'nuq" "IKS NeH'a'veS" "IKS MaQmIgh" "IKS Qu'nasvad" "IKS Qong'Dlj"
+	"IKS DaraDmo" "IKS Hu'tegh" "IKS Hu'tegh" "IKS Chochot'a" "IKS Yachchuq" "IKS ShoSqu'qech"
+	"IKS DaqunmeH" "IKS SoSll'Daq" "IKS QamchoH" "IKS Dara'pu'bogh" "IKS ChenmoHmeh" "IKS Hlingong"
+	"IKS QaQbogh" "IKS Herghvetlh" "IKS Daghajchugh" "IKS DunaDchoh" "IKS Hurgh'ragh"
+	"IKS TajHu'" "IKS Duy'Hub" "IKS Begh'poQ" "IKS Wuv'a'tem" "IKS Deb'choS" "IKS Ghoch'ragh"
+	"IKS Ghar'Qotlh" "IKS Qugh'tung" "IKS Tu'a'rop" "IKS Nay'par" "IKS GhoH'Sot" "IKS Do'Ha'"
+	"IKS Jiyajbe'" "IKS VIghajbe'" "IKS Hijol'peng" "IKS Mich'pagh" "IKS Qup'SoH"
+	"IKS TlhIH'Hu" "IKS Hob'DIS" "IKS Chong'pogh" "IKS TaD'moH" "IKS Huj'a'SIp" "IKS Dun'wo'"
+	"IKS Vut'bol" "IKS Maw'HeSwI'" "IKS QuHvaj'Qob" "IKS Tar'be'" "IKS Qul'bIQ" "IKS Jib'lalDan"
+	"IKS Hegh'QeDp" "IKS Hob'DIS" "IKS Qap'ghargh" "IKS Luq'argh" "IKS PiqaD'nem" "IKS MajQa'be'"
+	"IKS Qut'Such" "IKS NaS'puchpa'" "IKS LoS'maH" "IKS Sap'leng" "IKS JuS'mung" "IKS RaQpo'juS"
+	"IKS SID'ghom" "IKS BIQ'a'ngo'" "IKS BI'ngo'" "IKS Dom'SIS" "IKS Dakh'yi'DIL" "IKS Qo'"
+	"IKS Ylje'" "IKS Yaj'a'" "IKS Bllugh" "IKS Gho'be'" "IKS Doh'" "IKS TIQ'IwSev" "IKS TIH'Hich"
+	"IKS HuS'ngeb" "IKS BImoqu'" "IKS BInep" "IKS YijatlhQo'" "IKS Tong'Duj" "IKS VeQ'Duj"
+	"IKS MajloDHom" "IKS QAM'DIng" "IKS YIH'suQ" "IKS Seng'QaS" "IKS MoH'SoS" "IKS Ram'tlhon"
+	"IKS Daghaj'a" "IKS Qaghovchu" "IKS Nuqjatlh" "IKS Nodlljwo" "IKS Mu'qaD" "IKS Hab Quch"
+	"IKS Nijbogh" "IKS Qapla'jImaw" "IKS Supawpu" "IKS QuvDaq" "IKS Lurghvetlh" "IKS JaghHeyvam"
+	"IKS QaHeQnes" "IKS SoHvad" "IKS DaHa'qu'mo" "IKS Ha'ghach" "IKS Ash'Nazg" "IKS Yaghna"
+	"IKS DaHaghmoH" "IKS RurmeH" "IKS QaSlahHbe" "IKS PuqloD" "IKS Butlh" "IKS Lij'Quch"
+	"IKS TlhaQQuch" "IKS TaDmoH" "IKS QIbHeS" "IKS Qib'veQ" "IKS Sip'a'jor" "IKS NobHIvje'"
+	"IKS JoS'ghom" "IKS Majbe'HOM" "IKS VavnI'pI" "IKS SuD'mol" "IKS Meb'avwI'" "IKS Qa'ang"
+	"IKS Qi'tu'Daq" "IKS QaStaHvis" "IKS Ghah'ochDaq" "IKS Pa'ylnejll" "IKS LuDech" "IKS Qechvam"
+	"IKS Qelqa'lu'neSQo'jaj" "IKS DaHjaj'oh" "IKS Ghel'Di'ylaj" "IKS Bangjaj'e" "IKS QorwaghDaq"
+	"IKS TuQpa" "IKS BasDaS" "IKS Jach Pagh" "IKS SuH'ovelya" "IKS MpuDl'rlntaH" "IKS 'lHbogh"
+	"IKS Heghpu'ej"

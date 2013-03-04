@@ -1,0 +1,20 @@
+//York Class, Vega varient.
+#include "TCF_York.odf"
+
+buildtime = 25
+latinumcost = 265
+
+recyclelatinum = 195
+recycletime = 18
+
+maxhealth = 1875
+curhealth = 1875
+healthrate = 0.655
+
+maxshields = 250
+curshields = 250
+shieldrate = 0
+
+weapon1 = "TCFW_LMG-York"
+
+weapon2 = "TCFW_Dagger-York"

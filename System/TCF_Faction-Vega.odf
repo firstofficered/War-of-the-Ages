@@ -1,0 +1,17 @@
+wpnname = "The Vega"
+tooltip = "The Vega"
+verbosetooltip = "AUTOTOOLTIP-avatar_fed_risner.odf"
+buttonslot = 1
+replacement0class0 = "TCFV_OutpostS"
+replacementevent = "TCF_Welcome"
+replacementkeepname = 1
+replacementdontremovefootprint = 1
+overrideceasefire = 1
+classlabel = "replaceweapon"
+special = 1
+replacementmaintainorders = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

@@ -1,0 +1,25 @@
+ordname = "DSTO_PhotomonF"
+
+wpnname = "Photomon Torpedo Launcher"
+tooltip = "Photomon Torpedo Launcher"
+verbosetooltip = "Destroyer_Weapon-PhotomonF"
+
+firesound = "DST_Phototorp-Fire.wav"
+
+special = 0
+
+hitchance = 0.9
+	"DST_Eagle" 0.001
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+
+attackspeech = 0

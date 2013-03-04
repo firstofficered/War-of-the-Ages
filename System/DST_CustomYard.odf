@@ -1,0 +1,136 @@
+basename = "fed_platform"
+
+unitname = "Customization Yard"
+tooltip = "Customization Yard"
+verbosetooltip = "AUTOTOOLTIP-bor_uplink.odf"
+
+hotkeylabel = "GAME-HOTKEY-U"
+
+race = "Destroyers"
+
+buildtime = 15
+biomattercost = 100
+
+worthxp = 63
+
+recyclebiomatter = 30
+recycletime = 8
+
+maxhealth = 1331
+curhealth = 1331
+healthrate = 1.696
+
+maxshields = 0
+curshields = 0
+shieldrate = 0.000
+
+shieldgeneratorhitpoints = 0
+engineshitpoints = 0
+weaponshitpoints = 678
+lifesupporthitpoints = 0
+sensorshitpoints = 678
+
+engineshitpercent = 0
+lifesupporthitpercent = 0
+weaponshitpercent = 0
+shieldgeneratorhitpercent = 0
+sensorshitpercent = 0
+crewhitpercent = 0
+hullhitpercent = 100
+
+enginesrepairtime = 0.05
+lifesupportrepairtime = 0.0125
+weaponsrepairtime = 0.0001
+shieldgeneratorrepairtime = 0.05
+sensorsrepairtime = 0.05
+
+attackpower = 0.000
+intrinsicvalue = 0.000
+
+eventselect = "BorgCollectiveUplinkSelect"
+combat = 0
+alert = 0
+facility = 0
+footprintbuffer = 10.0f
+fireball = "x_large_explosion_green"
+
+weapon1 = "DSTR_HazeMK-1"
+weaponhardpoints1 = "root"
+
+enginestargethardpoints = "hp01"
+lifesupporttargethardpoints = "hp01"
+weaponstargethardpoints = "hp01"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+classlabel = "sensor"
+has_crew = 0
+transporter = 0
+is_starbase = 1
+ainame = "StarbaseProcess"
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0f
+avoidanceclass = 9
+weldingradius = 1.0
+repairyellow = 2.0f
+repairred = 4.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_sandd = 0
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 850
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "empty"
+
+possiblecraftnames = 
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"
+	"None Assigned" "None Assigned" "None Assigned" "None Assigned" "None Assigned"

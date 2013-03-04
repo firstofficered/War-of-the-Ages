@@ -1,0 +1,9 @@
+#include "TCFV_Outpost.odf"
+
+maxshields = 10000
+curshields = 10000
+shieldrate = 2.68
+
+pushbuilditem0 = "TCFV_RichardsonS"
+pushbuilditem1 = "TCFV_YorkS"
+pushbuilditem2 = "TCFV_YorkS"

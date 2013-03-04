@@ -1,0 +1,136 @@
+basename = "fed_sf_command"
+
+classlabel = "research"
+
+unitname = "Reloading Station"
+tooltip = "Reloading Station"
+verbosetooltip = "AUTOTOOLTIP-fed_sf_command.odf"
+
+worthxp = 112
+
+hotkeylabel = "GAME-HOTKEY-F6"
+
+race = "Destroyers"
+
+buildtime = 45
+crewcost = 750
+dilithiumcost = 0
+latinumcost = 0
+biomattercost = 0
+officercost = 0
+
+recycledilithium = 0
+recyclelatinum = 0
+recyclebiomatter = 0
+recycletime = 44
+
+maxhealth = 1200
+curhealth = 1200
+healthrate = 1.25
+
+maxshields = 3450
+curshields = 3450
+shieldrate = 3.5
+
+shieldgeneratorhitpoints = 162
+engineshitpoints = 0
+weaponshitpoints = 162
+lifesupporthitpoints = 162
+sensorshitpoints = 162
+
+//maxspecialenergy = 100000
+//specialenergyrate = 400
+
+specialenergydisplaymode = 2
+
+attackpower = 0.000
+intrinsicvalue = 0.000
+
+eventselect = "FederationCommandSelect"
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+
+animation = 2
+
+footprintbuffer = 120.0f
+
+//overlaysod = "fed_s_shuttlesL"
+
+//fleetcapfile = "all_cap_specialstations.odf"
+
+possiblecraftnames = "Command Base 104" "Command Base 113" "Command Base 135" "Command Base 138" "Command Base 145" "Command Base 166" "Command Base 170" "Command Base 174" "Command Base 201" "Command Base 206" "Command Base 229" "Command Base 49" "Command Base 78" "Command Base 94" "Command Base 98"
+
+weapon1 = "DSTW_Reload"
+weaponhardpoints1 = "root"
+weapon1iconpos = 75	50 // values are x y
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+sensorstargethardpoints = "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+is_starbase = 1
+
+ainame = "StarbaseProcess"
+
+shielddelay = 2
+
+avoidanceclass = 9
+weldingradius = 1.0
+
+fireball = "x_building_explosion"
+
+repairyellow = 2.0f
+repairred = 4.0f
+
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.0625
+weaponsrepairtime = 0.25
+shieldgeneratorrepairtime = 0.25
+sensorsrepairtime = 0.25
+
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+
+engineshitpercent = 0.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 78.0f
+
+facility = 1
+has_crew = 1
+transporter = 1
+has_hitpoints = 1
+
+checkvalidresourceinterval = 10.0f
+
+alert = 1
+
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+
+combat = 1
+can_sandd = 0
+
+buildablebyownerraceonly = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 600
+damagedscan = 50.0f
+
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "shield_fed_down"

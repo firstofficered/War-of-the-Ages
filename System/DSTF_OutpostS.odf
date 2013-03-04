@@ -1,0 +1,5 @@
+#include "DSTF_Outpost.odf"
+
+pushbuilditem0 = "DSTF_LarkS"
+pushbuilditem1 = "DSTF_LarkS"
+pushbuilditem2 = "DSTF_MustangS"

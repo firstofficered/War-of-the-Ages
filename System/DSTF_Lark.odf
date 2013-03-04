@@ -1,0 +1,63 @@
+#include = "DST_Lark.odf"
+
+verbosetooltip = "DST_Lark"
+
+race = "Destroyers"
+
+buildtime = 26
+crewcost = 150
+biomattercost = 10
+
+worthxp = 40
+
+recyclebiomatter = 3
+recycletime = 13
+
+maxhealth = 990
+curhealth = 990
+healthrate = 0.01
+
+maxshields = 3450
+curshields = 3450
+shieldrate = 2.5
+
+builditem0 = "DSTF_Outpost"			//Outpost
+builditem1 = "DST_MiningStation"		//Mining Station
+builditem2 = "DSTF_ShipyardR"			//Shipyard (Pre-refit)
+builditem3 = "DST_CustomYard"			//Customization Yard
+builditem4 = "DST_ResearchCenter"		//Research Center
+builditem5 = "DST_Ammo_Depot"			//Amunition Depot (Marlene only)
+//builditem6 = "DST_Transmitter"		//Communications Beacon
+//builditem7 = "DST_Collector"			//To be removed
+//builditem8 = "DST_RepairStation"		//To be removed
+//builditem6 = "fed_eraudi_yardY"		//End of list. More to be added.
+//builditem7 = "fed_platformY"
+//builditem8 = "fed_mixedtech_yard_domA"
+//builditem9 = "fed_mixedtech_yard_kliA"
+//builditem10 = "fed_mixedtech_yard_romA"
+//builditem11 = "fed_mixedtech_yard_borA"
+//builditem0availability = 2
+//builditem1availability = 2
+//builditem2availability = 10
+//builditem3availability = 10
+//builditem4availability = 10
+//builditem5availability = 10
+//builditem6availability = 10
+//builditem7availability = 10
+//builditem8availability = 10
+//builditem9availability = 130
+//builditem10availability = 130
+//builditem11availability = 130
+//builditem12 = "dom_mixedtech_yard_fed"
+//builditem13 = "kli_mixedtech_yard_fed"
+//builditem14 = "rom_mixedtech_yard_fed"
+//builditem15 = "bor_adap_matrix_fed"
+//builditem12availability = 2
+//builditem13availability = 2
+//builditem14availability = 2
+//builditem15availability = 2
+//builditem16 = "fed_outpostY_DDWW"
+//builditem17 = "fed_platform_phaser"
+//builditem18 = "fed_platform_pulse"
+//builditem19 = "fed_platform_sensor"
+//builditem20 = "fed_platform_torpedo"

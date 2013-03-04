@@ -1,0 +1,6 @@
+wpnname = "No Weapon"
+tooltip = "No Weapon"
+verbosetooltip = "Empty Weapons slot"
+classlabel = "UtilityWeapon"
+shotdelay = 0
+hasNegativeEffectOnOwner = 1

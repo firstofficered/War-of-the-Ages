@@ -1,0 +1,10 @@
+classlabel = "tractor_bm"
+specialenergycost = 0
+lifespan = 30.0
+shotspeed = 100
+shotgeometry = "effect_tractorbeam.sod"
+targetrange = 100.0f
+radiusscale = 2.5
+lengthscale = 5
+ignoreshield = 1
+forceinvalidatetarget = 1

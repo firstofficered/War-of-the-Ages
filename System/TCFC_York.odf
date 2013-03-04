@@ -1,0 +1,20 @@
+//York Class, Carnegie varient.
+#include "TCF_York.odf"
+
+buildtime = 13
+latinumcost = 162
+
+recyclelatinum = 122
+recycletime = 8
+
+maxhealth = 1642
+curhealth = 1642
+healthrate = 0.655
+
+maxshields = 540
+curshields = 540
+shieldrate = 0
+
+weapon1 = "TCFW_AC-York"
+
+weapon2 = "TCFW_Dagger-York"

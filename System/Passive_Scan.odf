@@ -1,0 +1,15 @@
+ordname = "Passive_Scano"
+special = 0
+useprimarytarget = 0
+basetargets = 1
+needtarget = 0
+hitmode = 2
+hitcloaked = 1
+beneficial = 1
+autotargetclosest = 1
+classlabel = "cannonimp"
+wpnname = "cannonimp"
+shotdelay0 = 0.1
+speakonattack = 0
+attackspeech = 0
+range = 400

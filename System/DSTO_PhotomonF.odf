@@ -1,0 +1,36 @@
+specialenergycost = 1
+
+damagebase = 24
+	"DST_Eagle" 2500
+
+damagevariance = 0
+
+damagethreshold = 0
+
+shieldcrewmodifier = 0
+
+hullcrewmodifier = 0
+
+shotgeometry = "DSTorp1.SOD"
+
+ignoreshield = 0
+
+lifespan = 25.0
+
+omegaturn = 0
+shotaccel = 150.0
+seektime = 0
+
+explosionhit = "fedW_photonH"
+
+explosionshieldhit = "fedW_photonHS"
+
+hitsound = "PhotoEXP.wav"
+
+shotspeed = 250.0
+
+classlabel = "UniTorpedo"
+
+spriteduration = 1
+shotcolor = 227
+radius = 12

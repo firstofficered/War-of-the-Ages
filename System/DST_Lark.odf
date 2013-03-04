@@ -1,0 +1,134 @@
+basename = "fed_mediterranean"
+
+unitname = "Lark Class"
+tooltip =  "Lark Class"
+verbosetooltip = "DST_Lark"
+
+hotkeylabel = "GAME-HOTKEY-C"
+
+race = "Destroyers"
+
+buildtime = 26
+crewcost = 150
+biomattercost = 350
+
+worthxp = 40
+
+recyclebiomatter = 285
+recycletime = 13
+
+maxhealth = 990
+curhealth = 990
+healthrate = 0.01
+
+maxshields = 3450
+curshields = 3450
+shieldrate = 2.5
+
+maxSpecialEnergy = 500
+specialEnergyRate = 10
+
+shieldgeneratorhitpoints = 42
+engineshitpoints = 42
+weaponshitpoints = 42
+lifesupporthitpoints = 42
+sensorshitpoints = 42
+
+attackpower = 0.000
+intrinsicvalue = 0.000
+
+physicsfile = "smooth_physics_70_trift.odf"
+trekphysicsfile = "smooth_physics_70_trift.odf"
+
+workerbeename = "fed_s_workbee"
+numberofworkerbees = 12
+
+weldingbeamsprite = "weldbeam"
+weldingbeamwidth = 2.0
+
+workerbeehardpoints = "hp96" "hp97" "hp98" "hp99" "hp96" "hp97" "hp98" "hp99" "hp96" "hp97" "hp98" "hp99"
+
+weapon1 = "DSTW_TractorBeam"
+weaponhardpoints1 = "hp08"
+
+weapon2 = "DSTW_Galar"
+weaponhardpoints2 = "hp08"
+
+enginestargethardpoints = "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+weapon1iconpos = 80	50
+
+possiblecraftnames = "USS Ayers" "USS Ayrton" "USS Bardeen" "USS Barmin" "USS Barnwell" "USS Bechtolsheim" "USS Bell" "USS Blondel" "USS Blumlein" "USS Bode" "USS B?lkow" "USS Brown" "USS Bruch" "USS Busemann" "USS Camm" "USS Camras" "USS Chadwick" "USS Chaffee" "USS Champbell" "USS Chawla" "USS Chelomei" "USS Coandra" "USS Condit" "USS Conway" "USS Coolidge" "USS Corin" "USS Cray" "USS Curtiss" "USS Dahm" "USS Dassault" "USS De Havilland" "USS De Mestral" "USS DeForest" "USS Dennard" "USS Dennis" "USS Dibner" "USS Dittmar" "USS Dobrovolsky" "USS Dodds" "USS Dolby" "USS Dornier" "USS Dowie" "USS Dowty" "USS Dumont" "USS Eckert" "USS Engelbart" "USS Eppler" "USS Faraday" "USS Farnsworth" "USS Gabrielli" "USS Gessow" "USS Glushko" "USS Gora" "USS Gouge" "USS Greene" "USS Greensite" "USS Haack" "USS Habibie" "USS Hafner" "USS Hervian" "USS Homer" "USS Jones" "USS Kalam" "USS Korolev" "USS Kranz" "USS Lilienthal" "USS Lindstrand" "USS Lippisch" "USS Lunney" "USS MacCready" "USS MacGill" "USS Mach" "USS Mackan" "USS Marriott" "USS Maughmer" "USS Messerschmitt" "USS Nath" "USS Neumann" "USS Ohain" "USS Pearse" "USS Petter" "USS Pilcher" "USS Podlech" "USS Potocnik" "USS Prandtl" "USS Rajan" "USS Resnik" "USS Reynolds" "USS Riebe" "USS Roe" "USS Roskam" "USS Roth" "USS Ruppelt" "USS Rutan" "USS Shute" "USS Sikorsky" "USS Simonov" "USS Smith" "USS Sopwith" "USS Sutter" "USS Szebehely" "USS Theodorson" "USS Truly" "USS Tupolev" "USS Vlaicu" "USS Voigt" "USS Von Braun" "USS Von Storch" "USS Vuia"
+
+shipclass = "construction"
+shiptype = "N"
+classlabel = "constructionrig"
+
+enginesrepairtime = 1.0
+lifesupportrepairtime = 0.25
+weaponsrepairtime = 1.0
+shieldgeneratorrepairtime = 1.0
+sensorsrepairtime = 1.0
+
+avoidanceclass = 3
+weldingradius = 0.25
+fireball = "x_medium_explosion"
+canattack = 0
+builder_facility = 1
+giveisallowed = 0
+
+timeuntiltakeoff = 3.0
+timewelding = 0.5
+timeuntilclosure = 3.0
+
+engineshitpercent = 0f
+lifesupporthitpercent = 8.0f
+weaponshitpercent = 8.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 8.0f
+hullhitpercent = 75.0f
+
+turntofire = 0
+preferredselect = 0
+
+eventselect = "Basic1ConstructorSelect"
+eventacknowledge = "Basic1ConstructorAcknowledge"
+eventattack = "Basic1ConstructorAcknowledge"
+eventstop = "Basic1ConstructorStop"
+eventmove = "Basic1ConstructorMove"
+eventrepair = "Basic1ConstructorRepair"
+ainame = "CraftProcess"
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+combat = 1
+can_sandd = 1
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 850
+
+shieldhit = "shield_fed_hitM"
+shieldhitcritical = "shield_fed_hitcritM"
+shielddown = "shield_fed_down"

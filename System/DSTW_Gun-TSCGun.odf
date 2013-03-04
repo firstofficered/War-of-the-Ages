@@ -1,0 +1,14 @@
+ordname = "DSTO_Gun-TSCGun"
+
+wpnname = "Type-3 Target Seeking Chainguns"
+tooltip = "Type-3 Target Seeking Chainguns"
+verbosetooltip = "AUTOTOOLTIP-DLaserBank1.odf"
+
+firesound = "DST_TSCG-Fire.wav"
+
+classlabel = "cannonimp"
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0

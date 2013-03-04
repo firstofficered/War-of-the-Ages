@@ -1,0 +1,11 @@
+#include "DSTW_PhotomonF.odf"
+
+shotcycleresettime = 2.0
+shotdelay0 = 0.6
+shotdelay1 = 0.6
+shotdelay2 = 3.0
+
+range = 650
+
+hitchance = 0.7
+	"DEagle.odf" 0.001

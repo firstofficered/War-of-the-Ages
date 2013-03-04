@@ -1,0 +1,32 @@
+wpnname = "Reload Transporter"
+tooltip = "Reload Transporter"
+verbosetooltip = "AUTOTOOLTIP-DST_Reload.odf"
+
+ordname = "DSTO_Reload"
+
+special = 0
+
+useprimarytarget = 0
+
+basetargets = 10
+
+needtarget = 0
+
+hitmode = 5
+
+hitcloaked = 1
+beneficial = 1
+
+validtargets = 1
+
+classlabel = "cannonimp"
+
+shotdelay0 = 2.0
+
+speakonattack = 0
+
+attackspeech = 0
+
+range = 600
+
+hitchance = 1

@@ -1,0 +1,26 @@
+ordname = "DSTO_Fighter-Gun"
+
+wpnname = "Light Machine Gun"
+tooltip = "Light Machine Gun"
+verbosetooltip = "DST_FighterGun"
+
+firesound = "DST_FightGun-Fire.wav"
+
+range = 600
+
+special = 0
+
+hitchance = 1
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+
+attackspeech = 0

@@ -1,0 +1,17 @@
+ordname = "DSTO_TractorBeam"
+wpnname = "Tractor Beam"
+tooltip = "Tractor Beam"
+verbosetooltip = "AUTOTOOLTIP-npc_tractorbeam.odf"
+buttonslot = 288
+special = 1
+shotdelay = 0.0
+firesound = "DSTractor.wav"
+classlabel = "toggleweapon"
+needtarget = 1
+switchtoattack = 0
+targetalliedcraft = 1
+forceinvalidatetarget = 1
+speakonattack = 0
+beneficial = 1
+attackspeech = 0
+range = 400

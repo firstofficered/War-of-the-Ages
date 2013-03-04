@@ -1,0 +1,17 @@
+specialenergycost = 0
+
+specialvalue = 1
+	"DST_MorteNavi.odf" 4
+
+classlabel = "BorgEnergyEmitter"
+
+damagebase = 0
+damagevariance = 0
+damagethreshold = 0
+
+shieldcrewmodifier = 0.0
+hullcrewmodifier = 0.0
+
+lifespan = 4.0
+
+ignoreshield = 1

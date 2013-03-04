@@ -1,0 +1,5 @@
+#include "TCFAI_Outpost-1.odf"
+
+pushbuilditem0 = "TCF_RichardsonS"
+pushbuilditem1 = "TCF_YorkS"
+pushbuilditem2 = "TCF_YorkS"

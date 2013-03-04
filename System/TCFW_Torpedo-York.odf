@@ -1,0 +1,30 @@
+ordname = "TCFO_Torp-Type6"
+
+wpnname = "Type-6 Torpedo Launcher"
+tooltip = "Type-6 Torpedo Launcher"
+verbosetooltip = "AUTOTOOLTIP-fedW_akiraY2.odf"
+
+range = 600
+
+shotdelay0 = 1.0
+shotdelay1 = 1.0
+shotdelay2 = 3.0
+
+firesound = "TCF_TMK6-Fire.wav"
+
+special = 0
+
+hitchance = 1
+	"DST_Eagle" 0.001
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+attackspeech = 0

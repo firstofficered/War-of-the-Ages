@@ -1,0 +1,31 @@
+wpnname = "Switch Modes"
+tooltip = "Switch Modes"
+verbosetooltip = "AUTOTOOLTIP-fed_avalonFR.odf"
+buttonslot = 0
+replacementkeepowner = 1
+selectmode = 2
+transferstats = 0
+replacementmaintainorders = 0
+
+
+replacement0condition = "DSTF_Mustang"
+replacement0class0 = "DSTF_MustangA"
+replacement1condition = "DSTF_MustangA"
+replacement1class0 = "DSTF_Mustang"
+replacement2condition = "DSTM_Mustang"
+replacement2class0 = "DSTM_MustangA"
+replacement3condition = "DSTM_MustangA"
+replacement3class0 = "DSTM_Mustang"
+replacement4condition = "DSTF_MustangS"
+replacement4class0 = "DSTF_MustangA"
+replacement5condition = "DSTM_MustangS"
+replacement5class0 = "DSTM_MustangA"
+
+cloakenable = 1
+classlabel = "replaceweapon"
+special = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

@@ -1,0 +1,20 @@
+wpnname = "Reloading Dock"
+
+replacementkeepowner = 0
+replacementresetspecialenergy = 0
+replacementresetcrew = 0
+transferstats = 1
+
+replacement0class0 = "Reload_Pod2"
+replacement0class0position = 0,40,0
+
+//replacementEnemyOfAll = 1
+replacementinstantai = 1
+replacementinstantplayer = 1
+overrideceasefire = 1
+classlabel = "replaceweapon"
+special = 1
+replacementmaintainorders = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0

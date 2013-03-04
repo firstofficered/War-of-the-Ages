@@ -1,0 +1,139 @@
+unitname = "Romana Class Mining Ship"
+tooltip =  "Romana Class Mining Ship"
+verbosetooltip = "AUTOTOOLTIP-fed_mandril.odf"
+
+hotkeylabel = "GAME-HOTKEY-F"
+
+race = "Destroyers"
+
+worthxp = 20
+
+buildtime = 29
+crewcost = 75
+biomattercost = 250
+
+recyclebiomatter = 192
+recycletime = 18
+
+maxhealth = 271
+curhealth = 271
+healthrate = 0.217
+
+maxshields = 362
+curshields = 362
+shieldrate = 0.629
+
+//The maximum amount of Special Energy of the GameObject.
+maxSpecialEnergy = 0
+
+//Amount of special weapons energy regenerated per second.
+specialEnergyRate = 0
+
+shieldgeneratorhitpoints = 24
+engineshitpoints = 24
+weaponshitpoints = 24
+lifesupporthitpoints = 24
+sensorshitpoints = 24
+
+attackpower = 0.200
+intrinsicvalue = 0.200
+
+physicsfile = "smooth_physics_50_trift.odf"
+trekphysicsfile = "smooth_physics_50_trift.odf"
+
+maxroll = 1
+
+resourcescanhandle = "biomatter"
+
+maxbiomatter = 500
+
+weapon1 = "DSTW_Laser-Romana"
+weaponhardpoints1 = "hp28"
+
+weapon2 = "DSTW_Mining_Beam"
+weaponhardpoints2 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+enginestargethardpoints = "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
+lifesupporttargethardpoints = "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldgeneratortargethardpoints = "hp07" "hp08" "hp09" "hp10" "hp11"
+sensorstargethardpoints = "hp16" "hp17" "hp18" "hp19"
+hulltargethardpoints = "hp07" "hp08" "hp09" "hp10" "hp11"
+criticaltargethardpoints = "hp07" "hp08" "hp09" "hp10"
+
+possiblecraftnames = "USS Alaska" "USS Apui" "USS Atlin" "USS Big Bend" "USS Chichagof" "USS Cobalt" "USS De Ferranti" "USS Fairbanks" "USS Farmer" "USS Ferraris" "USS Fessenden" "USS Fischer" "USS Fleming" "USS Flex" "USS Forrester" "USS Fortescue" "USS Fourier" "USS Fraser" "USS Gabor" "USS Gartley" "USS Gramme" "USS Gray" "USS Grimsdale" "USS Hawlett" "USS Heaviside" "USS Hertz" "USS Hopkinson" "USS Hopper" "USS Horowitz" "USS Hounsfield" "USS Hungen" "USS Hyland" "USS Iditarot" "USS Immink" "USS Joy" "USS Juneau" "USS Juwelier" "USS Kalman" "USS Keith" "USS Kennelly" "USS Kettering" "USS Kiana" "USS Kilby" "USS Klondike" "USS Kraus" "USS Kroemer" "USS Laclanche" "USS Laithwaite" "USS Lamarr" "USS Lamm" "USS Leeds" "USS Leonard" "USS Lodygin" "USS Marconi" "USS Marsh" "USS Mauchly" "USS Merz" "USS Metcalfe" "USS Moog" "USS More" "USS Nielson" "USS Nome" "USS Norton" "USS Noyce" "USS Oliver" "USS Olson" "USS Omineca" "USS Otago" "USS Ovshinsky" "USS Packard" "USS Palmer" "USS Pederson" "USS Pikes Peak" "USS Pope" "USS Porcupine" "USS Poulsen" "USS Preece" "USS Pupin" "USS Rampart" "USS Reeves" "USS Rock Creek" "USS Rudenberg" "USS Seebeck" "USS Shannon" "USS Siemens" "USS Spencer" "USS Starr" "USS Steinmetz" "USS Stikine" "USS Tarzian" "USS Tesla" "USS Thompson" "USS Tihanyi" "USS Tylor" "USS Van Depoele" "USS Vidmar" "USS Viterbi" "USS Wadley" "USS Watson" "USS Westinghouse" "USS Wheeler" "USS Whitaker" "USS Witwatersand" "USS Wozniak" "USS Yablochkov" "USS Yagi" "USS Yang" "USS Zuse"
+
+shipclass = "mining"
+shiptype = "X"
+classlabel = "freighter"
+
+enginesrepairtime = 1.0
+lifesupportrepairtime = 0.25
+weaponsrepairtime = 1.0
+shieldgeneratorrepairtime = 1.0
+sensorsrepairtime = 1.0
+
+avoidanceclass = 3
+weldingradius = 0.25
+
+fireball = "x_small2_explosion"
+selfdestruct = "x_small2_explosion"
+
+canattack = 0
+miner = 1
+giveisallowed = 0
+combat = 0
+can_sandd = 0
+
+latinum_spray_emitter = "latinum_spray"
+
+engineshitpercent = 0f
+lifesupporthitpercent = 8.0f
+weaponshitpercent = 8.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 8.0f
+hullhitpercent = 75.0f
+
+preferredselect = 0
+
+eventselect = "Basic1FreighterSelect"
+eventacknowledge = "Basic1FreighterAcknowledge"
+eventattack = "Basic1FreighterAcknowledge"
+eventstop = "Basic1FreighterStop"
+eventmove = "Basic1FreighterMove"
+eventrepair = "Basic1FreighterRepair"
+
+ainame = "CraftProcess"
+officercost = 0
+shielddelay = 2
+
+damagedscan = 50.0
+
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+alert = 1
+
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 800
+
+shieldhit = "shield_fed_hitS"
+shieldhitcritical = "shield_fed_hitcritS"
+shielddown = "Empty"

@@ -1,0 +1,39 @@
+ordname = "TCFO_Dagger"
+
+wpnname = "Dagger Missile Launcher"
+tooltip = "Dagger Missile Launcher"
+verbosetooltip = "TCF_Weapon-Dagger_Missile"
+
+firesound = "TCF_Dagger-Fire"
+
+shotcycleresettime = 2.0
+shotdelay0 = 0.3
+shotdelay1 = 0.3
+shotdelay2 = 0.3
+shotdelay3 = 0.3
+shotdelay4 = 0.3
+shotdelay5 = 0.6
+shotdelay6 = 0.3
+shotdelay7 = 0.3
+shotdelay8 = 0.3
+shotdelay9 = 0.3
+shotdelay10 = 0.3
+shotdelay11 = 3.0
+
+range = 750
+
+special = 0
+
+hitchance = 1
+
+impulsetohitmodifier = 0
+stoptohitmodifier = 0
+tohitimpulsemodifier = 0
+tohitstopmodifier = 0
+
+classlabel = "cannonimp"
+
+needtarget = 1
+
+speakonattack = 0
+attackspeech = 0

@@ -1,0 +1,16 @@
+#include "DSTW_Laser-CannonR.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = 0.25
+shotdelay1 = 0.25
+shotdelay2 = 0.25
+shotdelay3 = 0.25
+shotdelay4 = 0.25
+shotdelay5 = 2.0
+
+range = 650
+
+hitchance = 0.85
+	"DEagle.odf" 0.05
+
+HardpointShift = 1

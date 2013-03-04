@@ -1,0 +1,123 @@
+//Base ship for the York Class. Used by the AI.
+
+basename = "kli_brel" //Temporary Model
+
+unitname = "York Class"
+tooltip = "York Class"
+verbosetooltip = "AUTOTOOLTIP-kli_brel.odf"
+
+hotkeylabel = "GAME-HOTKEY-B"
+race = "TCF"
+
+buildtime = 22
+crewcost = 50
+latinumcost = 325
+
+worthxp = 15
+
+maxhealth = 1875
+curhealth = 1875
+healthrate = 0.655
+
+//Armor doesn't regenerate except at a shipyard.
+maxshields = 375
+curshields = 375
+shieldrate = 0
+
+maxspecialenergy = 126
+specialenergyrate = 0
+
+shieldgeneratorhitpoints = 0		// Not Available
+engineshitpoints = 150			// Our engines cant take too many hits
+weaponshitpoints = 350			// Targeting computers have some armor
+lifesupporthitpoints = 500		// Has a high value, but is faster to repair
+sensorshitpoints = 100			// Not as nessasary as other systems
+
+enginesrepairtime = 2.2			// Lets kill now and run later
+lifesupportrepairtime = 0.15		// Dont even try killing the crew this way.
+weaponsrepairtime = 0.75		// Kill them before they kill us.
+shieldgeneratorrepairtime = 0.0		// Dont even need to care.
+sensorsrepairtime = 3.0			// Not as nessasary as everything else.
+
+attackpower = 1.000
+intrinsicvalue = 1.000
+physicsfile = "smooth_physics_140.odf"
+trekphysicsfile = "smooth_physics_140.odf"
+
+//Supports 6 Primary Weapons
+weapon1 = "TCF_Plasma-York"
+weaponhardpoints1 = "hp09" "hp10" //Will change when new model is made available.
+weapon1iconpos = 75	50
+
+//Has a triple ring of 8, totaling 24 secondary weapons.
+weapon2 = "TCFW_Torpedo-York"
+weaponhardpoints2 = "root"
+weapon2iconpos = 90	50
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04"
+lifesupporttargethardpoints = "hp05" "hp06" "hp07" "hp08"
+weaponstargethardpoints = "hp09" "hp10"
+shieldgeneratortargethardpoints = "hp11" "hp12" "hp13" "hp14"
+sensorstargethardpoints = "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14"
+
+shipclass = "destroyer"
+shiptype = "D"
+
+avoidanceclass = 3
+weldingradius = 0.25
+
+fireball = "x_medium_explosion"
+
+classlabel = "craft"
+ainame = "CraftProcess"
+
+shielddelay = 2
+
+damagedscan = 50.0
+
+enginescrewloss = 10.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 10.0f
+shieldgeneratorcrewloss = 10.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 2
+
+engineshitpercent = 7.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 71.0f
+
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 0
+alert = 1
+
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+can_explore = 1
+combat = 1
+can_sandd = 1
+
+buildablebyownerraceonly = 1
+specialenergydisplaymode = 1
+
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+
+rangescan = 600
+
+//Will show armor when I can get it available. If Sci-Corp, armor will be replaced by shields.
+shieldhit = "effect_empty"
+shieldhitcritical = "effect_empty"
+shielddown = "effect_empty"
+
+//Will remove TCS Kendra later.
+possiblecraftnames = 
+	"TCS Kendra"	"TCS Monarch"	"TCS Logic"	"TCS Victor"	"TCS Honor"
+	"TCS Volt"	"TCS Navy"	"TCS Robin"	"TCS Grape"	"TCS Doctor"

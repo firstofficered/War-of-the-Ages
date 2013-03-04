@@ -1,0 +1,10 @@
+#include "TCFW_Laser-MK7.odf"
+
+shotcycleresettime = 1.0
+shotdelay0 = .25
+shotdelay1 = 1.0
+
+range = 500
+
+hitchance = 0.85
+	"DEagle.odf" 0.05
